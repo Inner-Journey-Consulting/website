@@ -1,0 +1,218 @@
+/* =========================================================================
+   Inner Journey Consulting — custom theme on top of Bootstrap 5
+   Palette: "Lantern-light in the woods"
+   Edit the tokens below to retheme the whole site.
+   ========================================================================= */
+:root{
+  --bg:#f3ecde;
+  --bg-warm:#eee4d2;
+  --surface:#fcfaf4;
+  --ink:#241f18;
+  --muted:#6f6555;
+  --pine:#1f2e26;
+  --pine-2:#283a30;
+  --pine-soft:#3b5246;
+  --sage:#6c8472;
+  --sage-tint:#e6ece1;
+  --amber:#c2812f;
+  --amber-soft:#dca353;
+  --amber-glow:#f0c074;
+  --line:#e3d9c6;
+  --radius:16px;
+  --display:"Fraunces",Georgia,serif;
+  --body:"Hanken Grotesk",system-ui,sans-serif;
+
+  /* Bootstrap variable overrides for cohesion */
+  --bs-body-bg:var(--bg);
+  --bs-body-color:var(--ink);
+  --bs-body-font-family:var(--body);
+  --bs-border-color:var(--line);
+  --bs-primary:var(--amber);
+  --bs-link-color:var(--pine-soft);
+  --bs-link-hover-color:var(--amber);
+}
+
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--body);
+  -webkit-font-smoothing:antialiased;
+}
+
+/* Reduced-motion respect */
+@media (prefers-reduced-motion: reduce){
+  *{animation:none !important; transition:none !important; scroll-behavior:auto !important;}
+}
+
+/* ---------- typography helpers ---------- */
+.font-display{font-family:var(--display);}
+h1,h2,h3,.h1,.h2,.h3{font-family:var(--display);font-weight:500;color:var(--pine-2);}
+.eyebrow{font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;
+         color:var(--amber);font-weight:600;}
+
+/* ---------- buttons ---------- */
+.btn-lantern{
+  background:var(--amber);color:#2a1c08;font-weight:600;border:none;
+  border-radius:999px;padding:.75rem 2rem;transition:.2s;
+}
+.btn-lantern:hover{background:var(--amber-soft);color:#2a1c08;transform:translateY(-2px);
+  box-shadow:0 12px 28px rgba(194,129,47,.4);}
+.btn-outline-woods{
+  border:1px solid var(--sage);color:var(--pine-soft);background:transparent;border-radius:999px;
+}
+.btn-outline-woods:hover{background:var(--sage-tint);color:var(--pine-2);}
+
+/* ---------- navbar ---------- */
+.navbar-woods{background:var(--pine);}
+.navbar-woods .navbar-brand{color:#f3ead7;font-family:var(--display);font-weight:500;
+  letter-spacing:.05em;text-transform:uppercase;font-size:1rem;}
+.navbar-woods .brand-name{color:#f3ead7;}
+.navbar-woods .nav-link{color:#cdd9cd;font-weight:500;font-size:.93rem;
+  border-bottom:2px solid transparent;transition:.2s;}
+.navbar-woods .nav-link:hover,
+.navbar-woods .nav-link.active,
+.navbar-woods .nav-link:focus{color:#f6efdd;border-color:var(--amber-soft);}
+.navbar-woods .navbar-toggler{border-color:rgba(243,234,215,.3);}
+.navbar-woods .navbar-toggler-icon{
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23f3ead7' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-woods .dropdown-menu{
+  background:var(--surface);border:1px solid var(--line);border-radius:12px;
+  box-shadow:0 18px 34px rgba(20,15,8,.22);
+}
+.navbar-woods .dropdown-item{color:var(--ink);font-weight:500;padding:.55rem 1.1rem;}
+.navbar-woods .dropdown-item:hover{background:var(--sage-tint);color:var(--pine-2);}
+.navbar-woods .dropdown-divider{border-color:var(--line);}
+
+/* ---------- hero ---------- */
+.hero{position:relative;background:var(--pine);color:#f3ead7;overflow:hidden;
+  padding:150px 0 0;text-align:center;}
+.hero .hero-glow{position:absolute;left:50%;top:150px;transform:translateX(-50%);
+  width:560px;height:560px;max-width:92vw;border-radius:50%;z-index:1;filter:blur(6px);
+  background:radial-gradient(circle, rgba(240,192,116,.28), rgba(240,192,116,0) 62%);
+  animation:breathe 7s ease-in-out infinite;}
+@keyframes breathe{0%,100%{opacity:.75}50%{opacity:1}}
+.hero-inner{position:relative;z-index:2;}
+.hero .medallion{width:178px;height:178px;object-fit:contain;margin:0 auto 30px;
+  animation:fade 1s ease both;}
+.hero h1{font-weight:400;color:#f3ead7;letter-spacing:-.01em;
+  font-size:clamp(2.5rem,6vw,4rem);line-height:1.04;margin:16px auto 0;max-width:16ch;
+  animation:fade 1s ease .2s both;}
+.hero h1 em{font-style:italic;color:var(--amber-glow);}
+.hero .sub{margin:22px auto 0;max-width:50ch;color:#cdd2c6;font-size:1.1rem;
+  animation:fade 1s ease .3s both;}
+.hero .eyebrow{color:var(--amber-soft);animation:fade 1s ease .1s both;}
+.hero .cta-wrap{animation:fade 1s ease .4s both;}
+@keyframes fade{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.hero .trees{display:block;width:100%;height:120px;margin-top:56px;position:relative;z-index:2;}
+
+/* ---------- generic page header (interior pages) ---------- */
+.page-head{padding:130px 0 10px;}
+.page-head.tight{padding-top:120px;}
+
+/* ---------- welcome ---------- */
+.welcome-head{display:flex;align-items:center;gap:18px;margin-bottom:22px;}
+.welcome-head .ink-mark{width:46px;height:46px;object-fit:contain;flex:none;}
+.lead-copy{max-width:60ch;color:var(--muted);font-size:1.12rem;}
+.lead-copy strong{color:var(--pine-2);font-weight:600;}
+
+/* ---------- service cards ---------- */
+.svc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:30px 26px;height:100%;transition:transform .3s,box-shadow .3s;}
+.svc:hover{transform:translateY(-4px);box-shadow:0 16px 34px rgba(40,30,15,.1);}
+.svc .ic{width:38px;height:38px;color:var(--sage);margin-bottom:16px;}
+.svc h3{font-size:1.28rem;color:var(--ink);margin-bottom:10px;}
+.svc p{color:var(--muted);font-size:.99rem;margin:0;}
+.svc .tag{display:inline-block;margin-top:12px;font-size:.72rem;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--pine-soft);background:var(--sage-tint);
+  padding:3px 10px;border-radius:6px;font-weight:600;}
+
+/* ---------- thematic band ---------- */
+.band{background:var(--pine-2);color:#f1e8d3;
+  background-image:radial-gradient(40rem 18rem at 80% 120%, rgba(220,163,83,.16), transparent 60%);}
+.band p{font-family:var(--display);font-style:italic;font-weight:400;
+  font-size:clamp(1.4rem,3vw,1.95rem);line-height:1.4;max-width:24ch;margin:0 auto;color:#f1e8d3;}
+
+/* ---------- filter panel (Who We Are) ---------- */
+.filter-panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:18px 22px;}
+.frow{display:flex;flex-wrap:wrap;align-items:center;gap:9px;}
+.frow + .frow{margin-top:12px;}
+.frow .flabel{flex:0 0 96px;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--muted);font-weight:600;}
+.chip-btn{font-family:var(--body);font-size:.88rem;font-weight:500;cursor:pointer;padding:6px 14px;
+  border-radius:999px;border:1px solid var(--sage);background:transparent;color:var(--pine-soft);transition:.16s;}
+.chip-btn:hover{background:var(--sage-tint);}
+.chip-btn.active{background:var(--amber);border-color:var(--amber);color:#fff;
+  box-shadow:0 3px 12px rgba(194,129,47,.32);}
+.count-line{font-size:.9rem;color:var(--muted);font-style:italic;}
+
+/* ---------- staff cards ---------- */
+.staff-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:26px 22px 22px;text-align:center;height:100%;
+  transition:transform .3s ease,box-shadow .3s ease;}
+.staff-card:hover{transform:translateY(-5px);box-shadow:0 16px 34px rgba(40,30,15,.12);}
+.staff-card .avatar{width:80px;height:80px;border-radius:50%;margin:0 auto 14px;display:grid;
+  place-items:center;font-family:var(--display);font-size:1.4rem;font-weight:500;color:var(--pine);
+  background:var(--sage-tint);object-fit:cover;
+  box-shadow:0 0 0 1px var(--line),0 0 0 6px var(--surface),0 0 0 7px var(--line);}
+.staff-card h3{font-size:1.16rem;color:var(--ink);line-height:1.15;margin:0;}
+.staff-card .creds{font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--amber);font-weight:600;margin-top:5px;}
+.staff-card .role{font-size:.9rem;color:var(--muted);margin-top:8px;}
+.staff-card .badges{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:12px 0 2px;}
+.staff-card .badge-mod{font-size:.7rem;background:var(--sage-tint);color:var(--pine-soft);
+  padding:3px 9px;border-radius:6px;font-weight:500;}
+.staff-card .counties{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:13px;
+  padding-top:13px;border-top:1px solid var(--line);}
+.staff-card .cty{font-size:.72rem;color:var(--sage);border:1px solid var(--sage);
+  padding:2px 9px;border-radius:999px;}
+.staff-card .ops{font-size:.78rem;color:var(--muted);margin-top:13px;padding-top:13px;
+  border-top:1px solid var(--line);font-style:italic;}
+
+/* ---------- empty state ---------- */
+.empty-state{text-align:center;padding:54px 20px 40px;color:var(--muted);}
+.empty-state svg{width:46px;height:46px;color:var(--sage);margin-bottom:14px;}
+.empty-state h3{font-size:1.3rem;color:var(--pine-2);margin-bottom:6px;}
+
+/* ---------- county / CCS chips & cards ---------- */
+.cty-link{font-size:.9rem;color:var(--pine-soft);background:var(--sage-tint);
+  border:1px solid var(--line);padding:7px 16px;border-radius:999px;text-decoration:none;display:inline-block;}
+.cty-link:hover{background:var(--amber);border-color:var(--amber);color:#fff;}
+.county-card{display:block;background:var(--surface);border:1px solid var(--line);
+  border-radius:var(--radius);padding:26px 24px;height:100%;text-decoration:none;color:var(--ink);
+  transition:transform .3s,box-shadow .3s,border-color .3s;}
+.county-card:hover{transform:translateY(-4px);box-shadow:0 16px 34px rgba(40,30,15,.1);
+  border-color:var(--amber);color:var(--ink);}
+.county-card h3{font-size:1.35rem;margin-bottom:6px;}
+.county-card .meta{font-size:.85rem;color:var(--muted);}
+.county-card .arrow{color:var(--amber);font-weight:600;margin-top:14px;display:inline-block;}
+
+/* ---------- panel ---------- */
+.soft-panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:34px;text-align:center;}
+.soft-panel .big-mark{width:120px;height:120px;object-fit:contain;margin:0 auto 14px;}
+.soft-panel small{color:var(--muted);}
+
+/* ---------- contact form ---------- */
+.form-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:32px;}
+.form-card .form-label{font-weight:600;color:var(--pine-2);font-size:.9rem;}
+.form-card .form-control{border-color:var(--line);background:#fff;}
+.form-card .form-control:focus{border-color:var(--amber);box-shadow:0 0 0 .2rem rgba(194,129,47,.18);}
+
+/* ---------- footer ---------- */
+.site-footer{background:var(--pine);color:#cdd9cd;font-size:.92rem;}
+.site-footer h4{font-family:var(--display);color:#f3ead7;font-weight:500;font-size:.78rem;
+  letter-spacing:.14em;text-transform:uppercase;margin-bottom:9px;}
+.site-footer a{color:#cdd9cd;text-decoration:none;}
+.site-footer a:hover{color:#f6efdd;}
+.site-footer .brandcol{display:flex;align-items:center;gap:12px;}
+.site-footer .brandcol img{width:40px;height:40px;object-fit:contain;}
+.site-footer .brandcol span{font-family:var(--display);letter-spacing:.05em;text-transform:uppercase;
+  font-size:.9rem;color:#f3ead7;}
+.site-footer .copy{border-top:1px solid rgba(243,234,215,.12);text-align:center;padding:16px;
+  font-size:.8rem;color:#9fae9f;}
+
+/* ---------- notice banner (preview only; safe to delete) ---------- */
+.preview-note{background:var(--amber-soft);color:#3a2a10;text-align:center;font-size:.82rem;
+  padding:8px;font-weight:500;}
