@@ -165,6 +165,21 @@
       "bio": "",
       "photo": "/assets/team/PXL_20230513_232948804.jpg",
       "order": 21
+    },
+    {
+      "name": "Matt Becker",
+      "credentials": "BA",
+      "role": "Youth Support Specialist",
+      "roles": [
+        "Youth/Peer Support"
+      ],
+      "trainings": [],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "Matt has a BA in fine arts and worked as a graphic designer for over 20 years. He decided to switch to helping children and families, and became certified to do so. He has volunteered with various organizations, including Artists Working in Education, which went to different Milwaukee County parks and did art projects with kids.\n\nMatt is dedicated to helping families and individuals develop skills in problem solving, self-awareness, communication and self-regulation. He is also dedicated to helping individuals with real life skills and independent living skills. He is interested in using art to help foster skills and communicate emotions and feelings, as well as a creative outlet.\n\nIn his free time Matt enjoys creating art, particularly drawing; listening to music and going to concerts; spending time with family and friends; working on cars; reading; learning about history; and watching and playing basketball.",
+      "photo": "/assets/team/unnamed-1.webp",
+      "order": 99
     }
   ]
 }
