@@ -244,7 +244,7 @@
     },
     {
       "name": "Alex Herrmann",
-      "credentials": "",
+      "credentials": "BS",
       "role": "Peer/Youth Support Specialist",
       "roles": [
         "Youth/Peer Support"
@@ -255,6 +255,21 @@
       ],
       "bio": "With four years in wraparound teams, Alex Herrmann is a dedicated mental health rehab worker with skills in medication management, career and life skills development, psychoeducation, and peer support. Alex takes a holistic, person-centered approach, meeting clients where they are and supporting them as they move forward.\n\nBlending clinical expertise with peer support values, Alex prioritizes active listening, adaptability, and humility. He’s always open to feedback and strives to create a comfortable, supportive space for clients. Being fully present—emotionally and mentally—is at the heart of his work.\n\nOutside of work, Alex loves spending time outdoors with his wife, baby daughter, and border collie, embracing family life and new adventures. He believes in treating everyone with respect and dignity—both personally and professionally.",
       "photo": "/assets/team/AlexH.webp",
+      "order": 99
+    },
+    {
+      "name": "Najwa Jaber",
+      "credentials": "BSW",
+      "role": "Youth Support Specialist",
+      "roles": [
+        "Youth/Peer Support"
+      ],
+      "trainings": [],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "Najwa earned her Bachelor’s degree in Social Work from the University of Wisconsin Milwaukee and will begin her Master’s in Social Work there this fall. She has lived in Milwaukee County her entire life and has always had a strong connection to her community. Najwa has spent years working with children in both social work settings and informal roles, and she continues to be passionate about supporting youth as they navigate life’s challenges.\n\nAs the oldest sibling in a large family, Najwa developed strong caregiving skills from a young age, which helped shape her path toward becoming a therapist. She is currently building her caseload and is accepting new clients.\n\nNajwa enjoys working with youth and families on building emotional awareness, self-confidence, and healthy communication skills. She brings a culturally sensitive, strengths-based approach to her work and values meeting clients where they are.\n\nIn her free time, Najwa enjoys going on walks, trying new restaurants, attending local events, and spending time with her family and friends.",
+      "photo": "/assets/team/NJaber+Photo.webp",
       "order": 99
     }
   ]
