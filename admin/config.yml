@@ -7,9 +7,10 @@
 # =============================================================================
 
 backend:
-  name: github
-  repo: ORG/REPO            # <-- set to your GitHub owner/repo, e.g. inner-journey-mke/website
-  branch: https://ijs.gnms6rznwv.workers.dev/callback
+  backend:
+     name: github
+     repo: https://github.com/Inner-Journey-Consulting/website   # <-- your actual owner/repo
+     branch: main
   # --- Authentication (choose ONE; see SETUP.md) ---
   # A) Cloudflare Worker authenticator (host-agnostic, recommended):
   #    deploy https://github.com/sveltia/sveltia-cms-auth and set:
