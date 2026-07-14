@@ -15,8 +15,8 @@
         "Waukesha",
         "Jefferson"
       ],
-      "order": 1,
-      "bio": "Carl is a licensed clinical social worker and the clinical director of Inner Journey Consulting. His work is grounded in depth and analytical psychology, with particular attention to dreamwork, symbol, and the long process of individuation.\n\nHe is currently completing advanced training in Jungian analysis. Carl also has experience running wilderness therapy programs, and believes that time in the natural world can open doors that a consulting room sometimes cannot."
+      "bio": "Carl is a licensed clinical social worker and the clinical director of Inner Journey Consulting. His work is grounded in depth and analytical psychology, with particular attention to dreamwork, symbol, and the long process of individuation.\n\nHe is currently completing advanced training in Jungian analysis. Carl also has experience running wilderness therapy programs, and believes that time in the natural world can open doors that a consulting room sometimes cannot.",
+      "order": 1
     },
     {
       "name": "Sophia Klingbiel",
@@ -34,8 +34,8 @@
         "Waukesha",
         "Ozaukee"
       ],
-      "order": 2,
-      "bio": "Sophia is a licensed clinical social worker and clinical supervisor, specializing in family and child therapy. She is EMDR trained and certified in Brainspotting.\n\nHer approach centers on helping families find language for what has gone unspoken, and on meeting children where they already are — in play, in movement, in story."
+      "bio": "Sophia is a licensed clinical social worker and clinical supervisor, specializing in family and child therapy. She is EMDR trained and certified in Brainspotting.\n\nHer approach centers on helping families find language for what has gone unspoken, and on meeting children where they already are — in play, in movement, in story.",
+      "order": 2
     },
     {
       "name": "Andrew Arrowood",
@@ -51,8 +51,8 @@
         "Jefferson",
         "Dodge"
       ],
-      "order": 3,
-      "bio": "Andrew is a psychotherapist working with adults across Jefferson and Dodge counties. His practice draws on sensorimotor approaches, attending closely to how experience is held in the body.\n\nHe is especially interested in the pace of therapeutic work — the idea that going slowly is often the fastest route."
+      "bio": "Andrew is a psychotherapist working with adults across Jefferson and Dodge counties. His practice draws on sensorimotor approaches, attending closely to how experience is held in the body.\n\nHe is especially interested in the pace of therapeutic work — the idea that going slowly is often the fastest route.",
+      "order": 3
     },
     {
       "name": "Grant Clark",
@@ -68,8 +68,8 @@
         "Washington",
         "Ozaukee"
       ],
-      "order": 4,
-      "bio": ""
+      "bio": "",
+      "order": 4
     },
     {
       "name": "Thoy Bouakongxaya",
@@ -85,8 +85,8 @@
       "counties": [
         "Waukesha"
       ],
-      "order": 5,
-      "bio": ""
+      "bio": "",
+      "order": 5
     },
     {
       "name": "Michelle Townsend de López",
@@ -100,8 +100,8 @@
         "Dodge",
         "Jefferson"
       ],
-      "order": 6,
-      "bio": ""
+      "bio": "",
+      "order": 6
     },
     {
       "name": "Lily Guth",
@@ -114,8 +114,8 @@
       "counties": [
         "Washington"
       ],
-      "order": 7,
-      "bio": ""
+      "bio": "",
+      "order": 7
     },
     {
       "name": "Tim Nett",
@@ -129,8 +129,8 @@
         "Ozaukee",
         "Washington"
       ],
-      "order": 8,
-      "bio": ""
+      "bio": "",
+      "order": 8
     },
     {
       "name": "Hollie Zellmer",
@@ -141,8 +141,8 @@
       ],
       "trainings": [],
       "counties": [],
-      "order": 20,
-      "bio": ""
+      "bio": "",
+      "order": 20
     },
     {
       "name": "Paul Vasholz",
@@ -153,8 +153,9 @@
       ],
       "trainings": [],
       "counties": [],
-      "order": 21,
-      "bio": ""
+      "bio": "This is a test",
+      "photo": "/assets/team/PXL_20230513_232948804.jpg",
+      "order": 21
     }
   ]
 }
