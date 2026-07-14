@@ -351,6 +351,37 @@
       "bio": "Hi, I’m Sage McCormick, and I am of Irish, Scottish, German, and Russian heritage. I have enjoyed working with people from all walks of life who need someone to walk with and support them. I have previously worked in community mental health care providing mental health services to victims of crime and underserved populations in Milwaukee. I specialize in taking a relational, cultural, and trauma-informed approach when working with people of all ages and from many walks of life. \n\nI received my bachelors in Women’s, Gender, and Sexuality Studies from the University of Montana, and my M.S. in Professional Counseling from Mount Mary University in Milwaukee. I practice from a Feminist and Community Activated Medicine orientation, combining my understanding of how systems and relational connections impact our health. I also am pursuing certification as a Clinical Rehabilitation Counselor to empower and support individuals with disabilities. I have worked with individuals navigating anxiety, trauma histories, relational wounds, LGBTQ+ identities, life transitions, and health concerns. In sessions, I enjoy bringing a mix of play, movement, nature, art, somatic, or mindfulness practices depending on the needs and likes of people I work with. I believe in taking a collaborative approach, as you are the expert of your experience, and I am along to support you in this vulnerable journey.  \n\nI enjoy traveling and have been an avid traveler since I was 18 and have visited ten countries in total between Asia and Europe. I enjoy spending my free time with my dog, Belle, going on walks or kayaking. I also enjoy meals with my family, spending time with my nieces, horseback riding, and trying new experiences. If I’m not outside, I am likely reading fantasy or learning about folklore, trying a new craft, watching a movie, or baking.",
       "photo": "/assets/team/SMcCormick+Headshot.webp",
       "order": 99
+    },
+    {
+      "name": "Paula Payne",
+      "credentials": "MA",
+      "role": "Youth Support & Family Engagement Specialist",
+      "roles": [
+        "Youth/Peer Support",
+        "Family Engagement/Psycho-Education"
+      ],
+      "trainings": [],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "Paula is a Youth Support and Family Engagement Specialist with over 15 years of experience working in mental health, education, and social services settings.  She has a Masters degree in Community Counseling from Lakeland College and demonstrated success working as a director of before and after school programs, special education teacher and paraprofessional in MPS, youth counselor in residential treatment, supervised visitation worker supporting families engaged in child welfare, and caring for the elderly. \n\nPaula is passionate about advocating for and supporting families and is dedicated to helping individuals develop problem solving, communication, emotional awareness and regulations, as well as life or independent living skills.  She is also particularly interested in exploring values and character education as well as self-exploration and knowledge exercises.  \n\nIn her free time Paula enjoys travel (including a trip to Italy for a language immersion course), different genres of music and singing, cooking, spending time with her family, and researching her family history, considering herself an amateur genealogist.\n\nPaula is excited to begin this new journey with Inner Journey and is available for Skills Development, Wellness Management, and Psycho-education services through Waukesha County CCS.",
+      "photo": "/assets/team/0 (2).webp",
+      "order": 99
+    },
+    {
+      "name": "Bethany Post",
+      "credentials": "LPC",
+      "role": "Psychotherapist",
+      "roles": [
+        "Psychotherapist"
+      ],
+      "trainings": [],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "Bethany Post is a Licensed Professional Counselor who has been working with children, adolescents, adults and families in an inpatient and intensive outpatient setting for 3 years. Bethany graduated from Capella University with her master’s in Clinical Mental Health counseling and a Bachelor’s from the University of Wisconsin Green Bay with a BS in Psychology and Human Development. Bethany has worked in a high acute setting developing relationships with patients and their families and finding what works best for them. She works with anxiety, depression, ADHD, personality disorders and other mental health needs.\n\nHer approach blends evidence-based techniques with genuine empathy, helping the patient uncover their strengths and create meaningful change.\n\nIn her free time Bethany enjoys traveling, spending time with her husband and son and finding any opportunity to learn new, exciting things. Bethany embraces challenges and looks forward to the next adventure that awaits both personally and professionally.",
+      "photo": "/assets/team/BPost+Headshot.webp",
+      "order": 99
     }
   ]
 }
