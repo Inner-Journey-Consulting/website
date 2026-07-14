@@ -75,5 +75,12 @@ collections:
                   - Jefferson
                   - Washington
                   - Rock
+              - name: bio
+                label: Bio
+                widget: text
+                required: false
+                hint: >-
+                  Shown on the member's own page. Leave blank and no "Read Bio"
+                  button appears. Separate paragraphs with a blank line.
               - { name: photo, label: Photo, widget: image, required: false }
               - { name: order, label: Display Order (lower shows first), widget: number, required: false, value_type: int, default: 99 }
