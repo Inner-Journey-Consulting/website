@@ -442,6 +442,82 @@
       "bio": "Sam is currently studying psychology and social work with the goal of becoming a therapist. She is earning her degree through UW-Milwaukee and hopes to work primarily with children, although she is open to helping people of all ages and backgrounds. Sam likes to work in a strengths based and solution focused way, with genuine empathy, patience, and utmost compassion. She strives to create a comfortable and soothing environment for her clients that is judgement-free and supportive.\n\nIn her free time, Sam likes to read books of all genres, but particularly horror. She watches movies, scrapbooks, sketches, bakes, attends concerts, and loves to visit with her family. She lives with her fiancé and two cats, Miika and Maddie.",
       "photo": "/assets/team/SScheffel+Headshot~EDIT.webp",
       "order": 99
+    },
+    {
+      "name": "Ethan Schmaling",
+      "credentials": "BS",
+      "role": "Youth Support Specialist",
+      "roles": [
+        "Youth/Peer Support"
+      ],
+      "trainings": [],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "I was born and raised in a primarily rural community where Future Farmers of America (FFA) - now known as National FFA Organization - was a major part of my life. Growing up in that environment shaped my work ethic, my appreciation for agriculture, and my deep connection to the outdoors.\n\nI attended Iowa State University, where I earned a degree in Agricultural Business and Economics with a minor in Political Science. After college, I spent seven years running research trials on swine vaccines. That experience taught me accountability, structure, and the importance of following through—skills I carry into my work today.\n\nMy approach to youth skill development is hands-on and experiential, with a strong emphasis on physical activity and nature-based services. I believe young people grow best when they are engaged, moving, and connected to their environment. Session activities are based on what the youth enjoys. I intentionally encourage youth to help guide our sessions—choosing the destination, setting goals, and taking ownership of the process.\n\nI am a firm believer in the power of choice and accountability, whether that means deciding how we spend our time together or taking responsibility for everyday tasks. I enjoy hunting and fishing and cooking what I harvest. I strive to be a champion for the youth I work with. My role is to walk alongside them, support their voice, and remind them that we are in this together.",
+      "photo": "/assets/team/ESchmaling+Bio+Headshot.webp",
+      "order": 99
+    },
+    {
+      "name": "Curtis Smith",
+      "credentials": "LPC-IT",
+      "role": "Psychotherapist",
+      "roles": [
+        "Psychotherapist"
+      ],
+      "trainings": [],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "Curtis has a background working in many capacities within the fields of Education, Social Services and Therapy in and around Milwaukee. In the past, he has worked with at-risk youth, aspiring high school graduates, school parents and the developmentally disabled population.\n\nIn 2024, Curtis finished his Master’s degree in Marriage and Family Therapy, so he can work with couples as well as continue to work with youth. \n\nCurtis enjoys movies, music and the outdoors.",
+      "photo": "/assets/team/0 (3).webp",
+      "order": 99
+    },
+    {
+      "name": "Abby Sobczak",
+      "credentials": "BA",
+      "role": "Youth Support Specialist",
+      "roles": [
+        "Youth/Peer Support"
+      ],
+      "trainings": [],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "Hi, I’m Abby. I’m a recent graduate with a Bachelor’s in Psychology with a minor in Justice Administration from Blackburn College in Southern Illinois. While in college, I worked as a supervisor for our local summer camp and in before- and after-school programs with children ranging from 5–12 years old (K–6th grade). In these roles, I enjoyed planning and leading outdoor activities and intentionally supporting children by recognizing and building on their individual strengths, confidence, and social skills.\n\nDuring my time at Blackburn College, I played for the volleyball team and worked with the campus security team, experiences that strengthened my leadership, teamwork, and responsibility.\n\nIn my free time, I enjoy taking my dog, Fred, on new outdoor adventures, drawing, painting, baking, and spending time with my family.",
+      "photo": "/assets/team/ASobczak+Bio+Headshot.webp",
+      "order": 99
+    },
+    {
+      "name": "Maureen Villars",
+      "credentials": "MSW, APSW",
+      "role": "Psychotherapist",
+      "roles": [
+        "Psychotherapist"
+      ],
+      "trainings": [],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "Maureen “Mo” Villars, an Advanced Practice Social Worker, is honored to be part of Inner Journey’s team as a psychotherapist supporting clients of all ages. She has over 10 years of experience supporting individuals and families as they build resilience while navigating through the challenges of anxiety, depression, severe and persistent mental illness, personality disorders, and suicidality, to name a few.  \n\nAs an ADHD mom of children with Autism and ADHD, she has experience living in “chaos” (like a squirrel trying to corral a herd of baby squirrels).  Her humorous and nonjudgmental attitude supports clients who feel overwhelmed, unsure, and even skeptical. Trained in Dialectical Behavioral Therapy (DBT), Maureen uses and teaches skills to help families work toward a life that feels more manageable, more meaningful, and, yes, a lot calmer.",
+      "photo": "/assets/team/MV+Photo.webp",
+      "order": 99
+    },
+    {
+      "name": "Allison Wojnar",
+      "credentials": "MS, BCBA, SAC-IT",
+      "role": "Youth Support & Family Engagement Specialist",
+      "roles": [
+        "Youth/Peer Support",
+        "Family Engagement/Psycho-Education"
+      ],
+      "trainings": [],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "Allison has supported both residential and inpatient behavioral health programs for adults, children, and adolescents. She also has 10 years of experience working with autistic children and their families. She is experienced in conducting sessions in the home, community, or in clinic-based settings. Allison has worked with individuals living with depression, anxiety, OCD, borderline personality disorder, schizophrenia, and substance use disorders. Allison has also conducted psychoeducational groups on CBT and DBT skills.\n\nProfessional interests include assent based and trauma informed care, neurodiversity, and harm reduction. \n\nIn her free time, she enjoys traveling, trying new restaurants, swimming, reading, and being a cat mom.",
+      "photo": "/assets/team/AWojnar+Headshot.webp",
+      "order": 99
     }
   ]
 }
