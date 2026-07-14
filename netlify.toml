@@ -1,0 +1,32 @@
+# Netlify configuration — Inner Journey Consulting
+#
+# This site is plain static HTML/CSS/JS with NO build step. Committing this file
+# stops Netlify from auto-detecting a static site generator (it guessed "Cecil"
+# once) and overriding the settings with a build command that doesn't exist here.
+#
+# Settings in this file take precedence over the Netlify dashboard UI.
+
+[build]
+  # No build step: the files in the repo root ARE the site.
+  command = ""
+  publish = "."
+
+# Serve the CMS cleanly at /admin (with or without the trailing slash).
+[[redirects]]
+  from = "/admin"
+  to = "/admin/index.html"
+  status = 200
+
+# Keep the CMS admin out of search results.
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+# Sensible baseline security headers for the public site.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
