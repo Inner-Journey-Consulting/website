@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
 # =============================================================================
 # Sveltia CMS configuration — Inner Journey Consulting
 # Served at /admin/. Edits content/staff.json and commits to the repo.
@@ -7,57 +8,72 @@
 # =============================================================================
 
 backend:
-  backend:
-     name: github
-     repo: https://github.com/Inner-Journey-Consulting/website   # <-- your actual owner/repo
-     branch: main
-  # --- Authentication (choose ONE; see SETUP.md) ---
-  # A) Cloudflare Worker authenticator (host-agnostic, recommended):
-  #    deploy https://github.com/sveltia/sveltia-cms-auth and set:
-  # base_url: https://sveltia-cms-auth.YOUR-SUBDOMAIN.workers.dev
+  name: github
+  repo: Inner-Journey-Consulting/website
+  branch: main
+  # AUTH: nothing is needed here to sign in with a personal access token
+  # ("Sign In with Token" on the login screen) — good for testing and for you.
   #
-  # B) Hosting on Netlify with a GitHub OAuth app linked to the site:
-  #    leave base_url unset (Netlify OAuth is the default flow).
+  # For Carl & Holly (non-technical), deploy the Sveltia CMS Authenticator to
+  # Cloudflare Workers and uncomment the line below. See SETUP.md.
+  # base_url: https://sveltia-cms-auth.YOUR-SUBDOMAIN.workers.dev
 
-# Uploaded photos are committed here and referenced by this relative path.
-media_folder: "assets/team"
-public_folder: "assets/team"
+# Uploaded photos are committed to /assets/team in the repo and served from
+# the same path (this site has no build step, so repo path == URL path).
+media_folder: /assets/team
+public_folder: /assets/team
 
 collections:
-  - name: "team"
-    label: "Team"
+  - name: team
+    label: Team
     files:
-      - name: "staff"
-        label: "Team Members"
-        file: "content/staff.json"
-        description: "Add, edit, or remove staff. Saving commits to the site and it republishes automatically."
+      - name: staff
+        label: Team Members
+        file: /content/staff.json
+        description: >-
+          Add, edit, or remove staff. Saving commits to the site and it
+          republishes automatically.
         fields:
-          - name: "staff"
-            label: "Team Members"
-            label_singular: "Team Member"
-            widget: "list"
-            summary: "{{fields.name}} — {{fields.role}}"
+          - name: staff
+            label: Team Members
+            label_singular: Team Member
+            widget: list
+            summary: '{{fields.name}} — {{fields.role}}'
             fields:
-              - { name: "name", label: "Full Name", widget: "string" }
-              - { name: "credentials", label: "Credentials (e.g. MSW, LCSW)", widget: "string", required: false }
-              - { name: "role", label: "Role / Title (shown on the card)", widget: "string" }
-              - name: "roles"
-                label: "Roles"
-                widget: "select"
+              - { name: name, label: Full Name, widget: string }
+              - { name: credentials, label: Credentials (e.g. MSW, LCSW), widget: string, required: false }
+              - { name: role, label: Role / Title (shown on the card), widget: string }
+              - name: roles
+                label: Roles
+                widget: select
                 multiple: true
                 min: 1
-                options: ["Psychotherapist", "Youth/Peer Support", "Family Engagement/Psycho-Education", "Program Support"]
-              - name: "trainings"
-                label: "Trainings"
-                widget: "select"
+                options:
+                  - Psychotherapist
+                  - Youth/Peer Support
+                  - Family Engagement/Psycho-Education
+                  - Program Support
+              - name: trainings
+                label: Trainings
+                widget: select
                 multiple: true
                 required: false
-                options: ["EMDR", "Brainspotting", "Sensory-motor", "Jungian/Analytical"]
-              - name: "counties"
-                label: "Counties Served"
-                widget: "select"
+                options:
+                  - EMDR
+                  - Brainspotting
+                  - Sensory-motor
+                  - Jungian/Analytical
+              - name: counties
+                label: Counties Served
+                widget: select
                 multiple: true
                 required: false
-                options: ["Waukesha", "Ozaukee", "Dodge", "Jefferson", "Washington", "Rock"]
-              - { name: "photo", label: "Photo", widget: "image", required: false, choose_url: false }
-              - { name: "order", label: "Display Order (lower shows first)", widget: "number", required: false, value_type: "int", default: 99 }
+                options:
+                  - Waukesha
+                  - Ozaukee
+                  - Dodge
+                  - Jefferson
+                  - Washington
+                  - Rock
+              - { name: photo, label: Photo, widget: image, required: false }
+              - { name: order, label: Display Order (lower shows first), widget: number, required: false, value_type: int, default: 99 }
