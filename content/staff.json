@@ -273,6 +273,53 @@
       "bio": "Najwa earned her Bachelor’s degree in Social Work from the University of Wisconsin Milwaukee and will begin her Master’s in Social Work there this fall. She has lived in Milwaukee County her entire life and has always had a strong connection to her community. Najwa has spent years working with children in both social work settings and informal roles, and she continues to be passionate about supporting youth as they navigate life’s challenges.\n\nAs the oldest sibling in a large family, Najwa developed strong caregiving skills from a young age, which helped shape her path toward becoming a therapist. She is currently building her caseload and is accepting new clients.\n\nNajwa enjoys working with youth and families on building emotional awareness, self-confidence, and healthy communication skills. She brings a culturally sensitive, strengths-based approach to her work and values meeting clients where they are.\n\nIn her free time, Najwa enjoys going on walks, trying new restaurants, attending local events, and spending time with her family and friends.",
       "photo": "/assets/team/NJaber+Photo.webp",
       "order": 99
+    },
+    {
+      "name": "LeLana Johnson",
+      "credentials": "MS",
+      "role": "YOUTH SUPPORT & FAMILY ENGAGEMENT SPECIALIST",
+      "roles": [
+        "Youth/Peer Support",
+        "Family Engagement/Psycho-Education"
+      ],
+      "trainings": [],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "I am passionate about empowering youth to achieve their academic, personal, and career goals. With experience working with youth and young adults across various educational, career, and therapeutic settings, I have honed my ability to build strong relationships. My goal is to support and guide the next generation, helping them unlock their full potential and succeed in their pursuits.",
+      "photo": "/assets/team/LeLana+Johnson.webp",
+      "order": 99
+    },
+    {
+      "name": "Sophia Korpal",
+      "credentials": "MSW, APSW",
+      "role": "Psychotherapist",
+      "roles": [
+        "Psychotherapist"
+      ],
+      "trainings": [],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "My passion for working with individuals struggling with mental illness began in high school while working in a residential treatment setting. After high school, I pursued an education where I could learn more about those I was already serving and what else I could do to help others. In 2017 I earned my Bachelor's of Social Work and Spanish through Winona State University in Winona MN, with a minor in child advocacy studies. I later moved to Milwaukee to continue my education graduating from UW-Milwaukee with a Master's in Social Work and Criminal Justice. I currently have my APSW working towards my LCSW.\n\nMy work in the field of mental health has been with individuals of all ages and I pride myself on my travels, both educational and independent, which have played a large part in my goal to be culturally diverse. I believe therapy is important to understanding one’s past in order to focus on obtaining a better future. Therapy can also help one process through current situations or to prepare for what is to come. My goal in providing therapy is to allow my clients to take the lead as they are the experts of their lives. My role is to provide them support and guidance and to get my clients to where they want to be.\n\nThe power of the human brain and body to recover, rewire, and continue fighting and building resilience is a beautiful thing. I have been able to experience other’s resilience and promote their perseverance in many settings. I have experience working with youth struggling with anxiety, depression, and with past and ongoing trauma in a day treatment setting, as well as with adults struggling to manage life stressors, trauma, and severe and persistent mental illness. I have also worked with individuals battling suicidal ideation due to depression, anxiety, PTSD, and persons suffering from delusions and hallucinations due to severe and persistent mental illness. My extensive experience working with individuals in mental health crises has provided me insight into the difficulties of obtaining outpatient treatment options, navigating inpatient treatment, and shown me that with support and a will to thrive people can remain in the community.",
+      "photo": "/assets/team/unnamed-2.webp",
+      "order": 99
+    },
+    {
+      "name": "Ashley Locke",
+      "credentials": "BS",
+      "role": "YOUTH SUPPORT & FAMILY ENGAGEMENT SPECIALIST",
+      "roles": [
+        "Youth/Peer Support",
+        "Family Engagement/Psycho-Education"
+      ],
+      "trainings": [],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "Ashley earned her Bachelor of Science in Psychology from Grand Canyon University and is currently pursuing her Master of Arts in Clinical Mental Health Counseling at Concordia University Irvine. She has experience working with youth and young adults in community mental health, university counseling, and behavioral health settings, supporting individuals with a wide range of emotional, behavioral, and life challenges.\n\nAs a Youth Support Specialist with Inner Journey Consulting, Ashley is passionate about helping youth build confidence, emotional awareness, resilience, and healthy coping skills. She values building genuine relationships and creating an environment where young people feel heard, supported, and encouraged as they navigate life’s challenges and work toward their goals.\n\nAshley approaches her work with empathy and a strengths-based perspective. She comes from a Christian background and is open to incorporating faith-based perspectives into support work when requested by clients and families.\n\nOutside of her professional and academic work, Ashley enjoys spending time with family and friends, baking, trying new coffee shops and restaurants, reading, and spending time outdoors whenever she can.",
+      "photo": "/assets/team/ALocke+Headshot.webp",
+      "order": 99
     }
   ]
 }
