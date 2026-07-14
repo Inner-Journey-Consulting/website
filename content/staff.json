@@ -180,6 +180,20 @@
       "bio": "Matt has a BA in fine arts and worked as a graphic designer for over 20 years. He decided to switch to helping children and families, and became certified to do so. He has volunteered with various organizations, including Artists Working in Education, which went to different Milwaukee County parks and did art projects with kids.\n\nMatt is dedicated to helping families and individuals develop skills in problem solving, self-awareness, communication and self-regulation. He is also dedicated to helping individuals with real life skills and independent living skills. He is interested in using art to help foster skills and communicate emotions and feelings, as well as a creative outlet.\n\nIn his free time Matt enjoys creating art, particularly drawing; listening to music and going to concerts; spending time with family and friends; working on cars; reading; learning about history; and watching and playing basketball.",
       "photo": "/assets/team/unnamed-1.webp",
       "order": 99
+    },
+    {
+      "name": "Ari Dragovich",
+      "credentials": "BS",
+      "role": "Youth Support & Family Engagement Specialist",
+      "roles": [
+        "Youth/Peer Support",
+        "Family Engagement/Psycho-Education"
+      ],
+      "trainings": [],
+      "counties": [],
+      "bio": "As a professional deeply committed to helping others, I believe in meeting young people where they are and walking with them as they navigate life’s challenges and discover their own paths forward. I’m passionate about fostering spaces where youth feel safe to be curious, vulnerable, and fully themselves—spaces rooted in respect, connection, and genuine care. I draw on principles of trauma-informed care, solution-focused thinking, and honest self-examination to support emotional regulation, build trust, and encourage meaningful growth.\n\nMy approach is deeply informed by a wide range of disciplines—psychology, sociology, religion, mythology, history, and current culture—all of which help me better understand the forces that shape our lives and identities. At the heart of my work is a commitment to truth: helping others explore, name, and live into their own truths so they can lead lives that feel meaningful, empowered, and free.\n\nOutside of work, I enjoy reading, writing, and filmmaking—with a little Dungeons & Dragons and professional wrestling thrown in for good measure.",
+      "photo": "/assets/team/adragovich.webp",
+      "order": 99
     }
   ]
 }
