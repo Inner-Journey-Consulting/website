@@ -150,6 +150,7 @@
       "trainings": [],
       "counties": [],
       "bio": "",
+      "photo": "/assets/team/0-2.webp",
       "order": 20
     },
     {
@@ -161,7 +162,7 @@
       ],
       "trainings": [],
       "counties": [],
-      "bio": "This is a test",
+      "bio": "",
       "photo": "/assets/team/PXL_20230513_232948804.jpg",
       "order": 21
     }
