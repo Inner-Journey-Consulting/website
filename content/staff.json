@@ -412,6 +412,36 @@
       "bio": "Rory is a Youth Support Specialist who graduated from University of Wisconsin-Milwaukee with a Bachelor's degree in Psychology. He has years of experience working with Neurodivergent and LGBT+ youth in both educational and therapeutic settings as well as adolescents involved in the juvenile justice system.\n\nRory operates from a person-centered and trauma-informed philosophy of care, with particular interest in experiential or exposure therapy approaches and conflict de-escalation.\n\nIn his free time, Rory enjoys reading, drawing, and being out in nature.",
       "photo": "/assets/team/IMG_9808.webp",
       "order": 99
+    },
+    {
+      "name": "Shalimar Rydzik",
+      "credentials": "MSW, APSW",
+      "role": "Psychotherapist",
+      "roles": [
+        "Psychotherapist"
+      ],
+      "trainings": [],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "Hi, I’m Shal, an APSW Therapist with over 7 years of experience in the mental health field. My background includes adult and youth, individual and group therapy, clubhouse rehabilitation, partial hospitalization, wraparound and trauma-focused work. For the past 3 years, I’ve focused on working with youth and families within the Comprehensive Community Services (CCS) program. Before becoming a therapist, I spent many years in fast-paced, people-centered environments, building strong skills in communication, problem-solving, and understanding real- life stress. Combined with my personal experience as a parent and living with ADHD, I bring both professional training and real-world perspective into my work.\n\nI work with children, teens, and families, with a focus on (but not limited to) ADHD, anxiety, depression and trauma. I also use DBT skills in a practical, relatable way that clients can apply in everyday life. My approach is person-centered, warm, and real. I use creative, hands-on, and nature-based approaches like art, movement, games, and outdoor sessions to help clients feel comfortable, build connection, and stay engaged. I’m known for looking beyond behaviors to understand the “why” underneath and identifying the barriers that need to be addressed first. I focus on building a strong foundation so that progress is meaningful and lasting.\n\nI value working with families while also advocating for each client’s voice and individual experience. Clients and families often describe me as genuine, easy to connect with, and someone who truly cares. Outside of therapy, I’m a mom to teenagers, have three tiny dogs, and am working toward building a small hobby farm. I enjoy mixed media art, thrifting, a little trashy reality TV when there is time and all of the animals! All things that reflect the creative and down-to-earth energy I bring into my work.",
+      "photo": "/assets/team/SRydzik+head+shot.webp",
+      "order": 99
+    },
+    {
+      "name": "Samantha Scheffel",
+      "credentials": "",
+      "role": "Youth Support Specialist",
+      "roles": [
+        "Youth/Peer Support"
+      ],
+      "trainings": [],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "Sam is currently studying psychology and social work with the goal of becoming a therapist. She is earning her degree through UW-Milwaukee and hopes to work primarily with children, although she is open to helping people of all ages and backgrounds. Sam likes to work in a strengths based and solution focused way, with genuine empathy, patience, and utmost compassion. She strives to create a comfortable and soothing environment for her clients that is judgement-free and supportive.\n\nIn her free time, Sam likes to read books of all genres, but particularly horror. She watches movies, scrapbooks, sketches, bakes, attends concerts, and loves to visit with her family. She lives with her fiancé and two cats, Miika and Maddie.",
+      "photo": "/assets/team/SScheffel+Headshot~EDIT.webp",
+      "order": 99
     }
   ]
 }
