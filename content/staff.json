@@ -190,7 +190,9 @@
         "Family Engagement/Psycho-Education"
       ],
       "trainings": [],
-      "counties": [],
+      "counties": [
+        "Waukesha"
+      ],
       "bio": "As a professional deeply committed to helping others, I believe in meeting young people where they are and walking with them as they navigate life’s challenges and discover their own paths forward. I’m passionate about fostering spaces where youth feel safe to be curious, vulnerable, and fully themselves—spaces rooted in respect, connection, and genuine care. I draw on principles of trauma-informed care, solution-focused thinking, and honest self-examination to support emotional regulation, build trust, and encourage meaningful growth.\n\nMy approach is deeply informed by a wide range of disciplines—psychology, sociology, religion, mythology, history, and current culture—all of which help me better understand the forces that shape our lives and identities. At the heart of my work is a commitment to truth: helping others explore, name, and live into their own truths so they can lead lives that feel meaningful, empowered, and free.\n\nOutside of work, I enjoy reading, writing, and filmmaking—with a little Dungeons & Dragons and professional wrestling thrown in for good measure.",
       "photo": "/assets/team/adragovich.webp",
       "order": 99
@@ -204,9 +206,26 @@
         "Family Engagement/Psycho-Education"
       ],
       "trainings": [],
-      "counties": [],
+      "counties": [
+        "Waukesha"
+      ],
       "bio": "I am a Youth and Family Engagement Specialist with extensive experience across legal, educational and wellness sectors, including years of service as a guardian ad litem for children, educator for youth programs and yoga instructor. I prioritize meeting youth and families where they are and recognizing their inherent strengths, resilience and lived expertise. I am committed to fostering trust, supporting informed choice, and promoting meaningful engagement to help the youth and families achieve their highest possible level of independent functioning, stability, and help facilitate recovery.",
       "photo": "/assets/team/LEdwards+Bio+Headshot.webp",
+      "order": 99
+    },
+    {
+      "name": "Aren Forrest",
+      "credentials": "LPC-IT",
+      "role": "Psychotherapist",
+      "roles": [
+        "Psychotherapist"
+      ],
+      "trainings": [],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "Aren earned his Bachelors of Science in Psychology from the University of Wisconsin-Stevens Point and his Masters of Science in Clinical Mental Health Counseling from Marquette University. He has experience working with youth, young adults and geriatric clients in community mental health, behavioral health, and private practice. Aren has worked to support people with a wide range of challenges from behavioral and emotional challenges, navigating neurodivergence, to major life changes. He has primarily worked with adolescents and young adults with depression, anxiety and identity concerns.\n\nAs a psychotherapist, Aren approaches his work with warmth, empathy and authenticity to cultivate a safe and supportive environment for clients to feel welcomed to come as they are. He enjoys bringing in creative elements such as art, music and nature to counseling to best fit each individual’s needs. He takes an integrative approach, primarily working through Acceptance and Commitment Therapy to assist people in finding a lifestyle in-line with what is important to them. He believes that true growth comes from a strong working relationship, the bravery to look at oneself, the vulnerability to show up as you are, and the courage to make a change for yourself.\n\nOutside of his professional work, Aren enjoys spending time playing a wide variety of games, taking hikes in nature, playing disc golf, reading sci-fi and fantasy novels, and spending time with friends and family.",
+      "photo": "",
       "order": 99
     }
   ]
