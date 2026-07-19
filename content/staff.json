@@ -36,8 +36,7 @@
         "Brainspotting"
       ],
       "counties": [
-        "Waukesha",
-        "Ozaukee"
+        "Waukesha"
       ],
       "bio": "Sophia Klingbiel is a LCSW and has been providing therapy and psychoeducation since 2012. Sophia is a graduate of George Williams College where she earned her Masters in Social Work. Her prior education earned her a Bachelor's degree in Social Work from Mount Mary College. Sophia's main focus is in trauma, depression amd anxiety. She also works with ADHD, adoption, life skills, and other mental health needs. \n\nSophia is fully trained in EMDR, has begun training in Brainspotting and uses CBT, Mindfulness, Nature and art within her practice. Sophia believes in helping her clients express their needs in therapy as she believes that the client knows what they need and she can provide the support and guidance. \n\nIn her spare time Sophia enjoys spending time with her family out in nature exploring and creating. Sophia enjoys travel, meeting new people and having new experiences. She enjoys education and believes that every day holds a new opportunity to learn something new.",
       "photo": "/assets/team/0-1.webp",
@@ -51,11 +50,12 @@
         "Psychotherapist"
       ],
       "trainings": [
-        "Sensory-motor"
+        "EMDR"
       ],
       "counties": [
-        "Jefferson",
-        "Dodge"
+        "Dodge",
+        "Waukesha",
+        "Jefferson"
       ],
       "bio": "Working on yourself is a lifelong process.\n\nLet’s take it a day at a time, a goal at a time, and together we can work towards becoming your best self.\n\nLife is a marathon, not a race.",
       "photo": "/assets/team/AArrowood+Headshot.webp",
@@ -68,12 +68,11 @@
       "roles": [
         "Psychotherapist"
       ],
-      "trainings": [
-        "Brainspotting"
-      ],
+      "trainings": [],
       "counties": [
         "Washington",
-        "Ozaukee"
+        "Ozaukee",
+        "Jefferson"
       ],
       "bio": "Hi, I’m Grant Clark, a psychotherapist with a background working with teens, adults, and elderly clients, with an emphasis on men and adolescents, primarily navigating identity-related concerns, depression, ADHD, and anxiety.\n\nI take a neurodivergent-affirming and trauma-focused approach working with my clients, primarily using Acceptance and Commitment Therapy (ACT) and Existential Therapy. In sessions, this means helping clients develop more flexible ways of responding to difficult thoughts, emotions, and life challenges by identifying personal values and meaning so that they can take steps to live a more fulfilling life. I also incorporate other modalities like Dialectical Behavioral Therapy (DBT) and somatic-based approaches to provide skills when appropriate.\n\nOutside of the office, I spend most of my time doing various arts and crafts, playing games, working out, or being out in nature.",
       "photo": "/assets/team/GClark+Headshot-EDIT.webp",
@@ -86,10 +85,7 @@
       "roles": [
         "Psychotherapist"
       ],
-      "trainings": [
-        "EMDR",
-        "Sensory-motor"
-      ],
+      "trainings": [],
       "counties": [
         "Waukesha"
       ],
@@ -106,8 +102,9 @@
       ],
       "trainings": [],
       "counties": [
-        "Dodge",
-        "Jefferson"
+        "Jefferson",
+        "Ozaukee",
+        "Waukesha"
       ],
       "bio": "A highly skilled bilingual professional, adept at navigating diverse cultural and faith-based environments and communicating fluidly in customs and culture. A strong educational background and extensive experience in both domestic and international settings, I demonstrate exceptional adaptability and a keen understanding of navigating the realities in urban, suburban and rural contexts. A strong commitment to empower individuals to deconstruct the biases and negative narratives and gain tools to reconstruct your lived reality with grace and strength. Our lives are about learning to flourish in difficult circumstances and still show up and appreciate the becoming of your best self.",
       "photo": "/assets/team/MTownsend+de+López+Headshot.webp",
@@ -122,7 +119,8 @@
       ],
       "trainings": [],
       "counties": [
-        "Washington"
+        "Jefferson",
+        "Dodge"
       ],
       "bio": "Hi, I’m Lily (she/her), a BIPOC adoptee and certified social worker with experience ranging from child protection services to supporting adults with disabilities and children with special needs. I’m a big foodie, animal lover, and outdoors enthusiast. I’m married with a blended family, including two wonderful children with special needs, and I’ll be starting my Master of Social Work at the University of Denver in 2026. I’m truly looking forward to connecting and working with you!",
       "photo": "/assets/team/LGuth+Headshot+(1).webp",
@@ -137,8 +135,9 @@
       ],
       "trainings": [],
       "counties": [
-        "Ozaukee",
-        "Washington"
+        "Dodge",
+        "Jefferson",
+        "Waukesha"
       ],
       "bio": "Tim Nett earned a Bachelor of Science in Psychology from St. Norbert College and a Master of Science in Family Relations & Child Development, Marriage & Family Therapy from Oklahoma State University. In addition to his clinical training, Tim brings more than 20 years of experience in Human Resources, giving him a deep understanding of how individuals, families, workplaces, and systems shape our lives and relationships.\n\nAs the youngest of ten children and a father himself, Tim understands the complexity of family dynamics, relationships, resilience, and personal growth. Raised in a family business focused on residential construction, he developed a lifelong appreciation for creating, building, and problem-solving—whether through remodeling, landscaping, or helping people rebuild and strengthen their lives.\n\nIn 2018, Tim was diagnosed with Parkinson’s disease, a journey that has deepened his empathy, resilience, and perspective. While Parkinson’s is part of his story, it does not define it. Tim is an active advocate, volunteer, and ambassador, helping raise awareness, support, education, and research funding for individuals and families impacted by Parkinson’s disease.\n\nTim’s creativity extends into music, where he performs classic and popular songs as a vocalist, saxophonist, and harmonica player. His love for music reflects the same energy, authenticity, and human connection he values in his work with clients.\n\nKnown for his compassionate, grounded, and often playful approach, Tim believes meaningful change begins when people feel genuinely seen, heard, and understood. He works collaboratively with clients, drawing from their strengths, experiences, and goals to support healing, growth, and lasting change.\n\nTim believes that growth happens in relationships, healing begins with connection, and no one should have to navigate life’s challenges alone.",
       "photo": "/assets/team/TNett+Headshot+Edit.webp",
@@ -179,7 +178,8 @@
       ],
       "trainings": [],
       "counties": [
-        "Waukesha"
+        "Waukesha",
+        "Jefferson"
       ],
       "bio": "Matt has a BA in fine arts and worked as a graphic designer for over 20 years. He decided to switch to helping children and families, and became certified to do so. He has volunteered with various organizations, including Artists Working in Education, which went to different Milwaukee County parks and did art projects with kids.\n\nMatt is dedicated to helping families and individuals develop skills in problem solving, self-awareness, communication and self-regulation. He is also dedicated to helping individuals with real life skills and independent living skills. He is interested in using art to help foster skills and communicate emotions and feelings, as well as a creative outlet.\n\nIn his free time Matt enjoys creating art, particularly drawing; listening to music and going to concerts; spending time with family and friends; working on cars; reading; learning about history; and watching and playing basketball.",
       "photo": "/assets/team/unnamed-1.webp",
@@ -195,7 +195,9 @@
       ],
       "trainings": [],
       "counties": [
-        "Waukesha"
+        "Waukesha",
+        "Ozaukee",
+        "Dodge"
       ],
       "bio": "As a professional deeply committed to helping others, I believe in meeting young people where they are and walking with them as they navigate life’s challenges and discover their own paths forward. I’m passionate about fostering spaces where youth feel safe to be curious, vulnerable, and fully themselves—spaces rooted in respect, connection, and genuine care. I draw on principles of trauma-informed care, solution-focused thinking, and honest self-examination to support emotional regulation, build trust, and encourage meaningful growth.\n\nMy approach is deeply informed by a wide range of disciplines—psychology, sociology, religion, mythology, history, and current culture—all of which help me better understand the forces that shape our lives and identities. At the heart of my work is a commitment to truth: helping others explore, name, and live into their own truths so they can lead lives that feel meaningful, empowered, and free.\n\nOutside of work, I enjoy reading, writing, and filmmaking—with a little Dungeons & Dragons and professional wrestling thrown in for good measure.",
       "photo": "/assets/team/adragovich.webp",
@@ -226,7 +228,9 @@
       ],
       "trainings": [],
       "counties": [
-        "Waukesha"
+        "Waukesha",
+        "Jefferson",
+        "Ozaukee"
       ],
       "bio": "Aren earned his Bachelors of Science in Psychology from the University of Wisconsin-Stevens Point and his Masters of Science in Clinical Mental Health Counseling from Marquette University. He has experience working with youth, young adults and geriatric clients in community mental health, behavioral health, and private practice. Aren has worked to support people with a wide range of challenges from behavioral and emotional challenges, navigating neurodivergence, to major life changes. He has primarily worked with adolescents and young adults with depression, anxiety and identity concerns.\n\nAs a psychotherapist, Aren approaches his work with warmth, empathy and authenticity to cultivate a safe and supportive environment for clients to feel welcomed to come as they are. He enjoys bringing in creative elements such as art, music and nature to counseling to best fit each individual’s needs. He takes an integrative approach, primarily working through Acceptance and Commitment Therapy to assist people in finding a lifestyle in-line with what is important to them. He believes that true growth comes from a strong working relationship, the bravery to look at oneself, the vulnerability to show up as you are, and the courage to make a change for yourself.\n\nOutside of his professional work, Aren enjoys spending time playing a wide variety of games, taking hikes in nature, playing disc golf, reading sci-fi and fantasy novels, and spending time with friends and family.",
       "photo": "/assets/team/AForrest+Headshot-EDIT.webp",
