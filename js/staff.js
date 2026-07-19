@@ -11,7 +11,7 @@
    GitHub Pages, or `python3 -m http.server` locally) — not opened via file://.
    ========================================================================= */
 
-const COUNTIES = ["Waukesha", "Ozaukee", "Dodge", "Jefferson", "Washington", "Walworth"];
+const COUNTIES = ["Waukesha", "Ozaukee", "Dodge", "Jefferson", "Rock", "Walworth"];
 
 const ROLES = [
   "Psychotherapist",
