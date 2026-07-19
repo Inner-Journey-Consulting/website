@@ -74,7 +74,7 @@ collections:
                   - Dodge
                   - Jefferson
                   - Washington
-                  - Rock
+                  - Walworth
               - name: bio
                 label: Bio
                 widget: text
