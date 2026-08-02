@@ -154,7 +154,7 @@
       "counties": [],
       "bio": "",
       "photo": "/assets/team/0-2.webp",
-      "order": 32
+      "order": 33
     },
     {
       "name": "Paul Vasholz",
@@ -167,7 +167,7 @@
       "counties": [],
       "bio": "",
       "photo": "/assets/team/PXL_20230513_232948804.jpg",
-      "order": 33
+      "order": 34
     },
     {
       "name": "Matt Becker",
@@ -530,6 +530,25 @@
       "bio": "Allison has supported both residential and inpatient behavioral health programs for adults, children, and adolescents. She also has 10 years of experience working with autistic children and their families. She is experienced in conducting sessions in the home, community, or in clinic-based settings. Allison has worked with individuals living with depression, anxiety, OCD, borderline personality disorder, schizophrenia, and substance use disorders. Allison has also conducted psychoeducational groups on CBT and DBT skills.\n\nProfessional interests include assent based and trauma informed care, neurodiversity, and harm reduction. \n\nIn her free time, she enjoys traveling, trying new restaurants, swimming, reading, and being a cat mom.",
       "photo": "/assets/team/AWojnar+Headshot.webp",
       "order": 31
+    },
+    {
+      "name": "Josh",
+      "credentials": "",
+      "role": "Psychotherapist",
+      "roles": [
+        "Psychotherapist"
+      ],
+      "trainings": [
+        "Brainspotting",
+        "Sensory-motor",
+        "Jungian/Analytical"
+      ],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "As a psychotherapist, I help individuals and families develop a deeper understanding of their emotional lives. When I work with clients my goal, beyond treating behavioral problems or mental health issues, is to understand who they are, what the world feels like to them, and to build a relationship with them that allows them to gain better access to their own experience and inner sense of integrity. \n\n I earned my MSW from Fordham University in the Bronx, where I completed an internship in adult psychotherapy at the Institute for Family Health. I did my generalist internship at the City of Chicago’s Department of Family Support and Services, working with families in crisis to stabilize them and connect them to sources of support in the city.\n\n I have experience working with clients from many backgrounds and conditions, but have a few areas of specialization: trauma (PTSD and C-PTSD), chronic illness, and major life transitions (divorce, loss, changing careers or locations). I’m currently training in sensorimotor psychotherapy, an approach to treating trauma and relational injuries that uses mindful processing of bodily feelings to heal traumatic memories. I have additional training in psychoanalytic therapy and human development.\n\n I’m looking forward to returning to CSS. I believe that, especially with adolescents, understanding problematic behavior is almost always a matter of understanding the family. I like working actively and creatively with teens (going hikes, playing games), and find it builds trust and a sense of engagement. One of my goals for the next year is to deepen my understanding of family dynamics and work with a family as a unit.\n\nIn my spare time, I like to play some hockey, hike in the woods, read philosophy, and learn about the ecology of the Upper Midwest.",
+      "photo": "/assets/team/JConnor_BIo.jpg",
+      "order": 32
     }
   ]
 }
