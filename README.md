@@ -17,6 +17,7 @@ for the one-time hosting + CMS wiring.
 ## Structure
 
     index.html          Home
+    mission.html        Mission & core values
     who-we-are.html     Team directory with County / Role / Training filters
     ccs.html            CCS overview — grid of the six counties
     ccs-county.html     One county's roster; chosen via ?county=NAME

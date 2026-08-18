@@ -256,5 +256,15 @@ h1,h2,h3,.h1,.h2,.h3{font-family:var(--display);font-weight:500;color:var(--pine
 }
 
 
+/* ---------- mission page ---------- */
+.mission-lede{font-family:var(--display);font-weight:400;line-height:1.5;
+  font-size:clamp(1.3rem,2.4vw,1.7rem);color:var(--pine-2);max-width:50ch;}
+
+/* short mission pull on the home page */
+.mission-callout{border-left:3px solid var(--amber);padding:2px 0 2px 20px;max-width:60ch;}
+.mission-callout p{color:var(--muted);font-size:1.06rem;margin-bottom:.5rem;}
+.mission-callout a{color:var(--amber);font-weight:600;font-size:.95rem;text-decoration:none;}
+.mission-callout a:hover{text-decoration:underline;}
+
 /* ---------- page bottom: keep content off the footer ---------- */
 main{padding-bottom:3rem;}
