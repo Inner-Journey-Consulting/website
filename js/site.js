@@ -3,7 +3,7 @@
    nav and footer are defined once here instead of copied into each HTML file.
    Requires staff.js (for COUNTIES) to be loaded before this file.
 
-   Each page sets <body data-page="home|team|ccs|contact"> to mark the
+   Each page sets <body data-page="home|mission|team|ccs|contact"> to mark the
    active nav item.
    ========================================================================= */
 (function () {
@@ -29,6 +29,7 @@
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
           <li class="nav-item"><a class="nav-link ${page === "home" ? "active" : ""}" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link ${page === "mission" ? "active" : ""}" href="mission.html">Mission</a></li>
           <li class="nav-item"><a class="nav-link ${page === "team" ? "active" : ""}" href="who-we-are.html">Who We Are</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle ${page === "ccs" ? "active" : ""}" href="#" role="button"
