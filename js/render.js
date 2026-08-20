@@ -24,13 +24,22 @@ function esc(str){
   ));
 }
 
+/* Photos are cropped to a circle with object-fit:cover, which crops to the
+   centre by default and cuts off faces in tall or off-centre shots. Each
+   record may carry a photoFocus ("50% 30%") naming the point to keep in
+   frame; the CSS default covers records without one. */
+function focusStyle(p){
+  const f = (p.photoFocus || "").trim();
+  return /^[\d.]+%\s+[\d.]+%$/.test(f) ? ` style="object-position:${f}"` : "";
+}
+
 /* Build one staff card (returns a Bootstrap column element). */
 function buildStaffCard(p){
   const col = document.createElement("div");
   col.className = "col-12 col-sm-6 col-lg-4 col-xl-3";
 
   const avatar = p.photo
-    ? `<img class="avatar" src="${esc(p.photo)}" alt="Portrait of ${esc(p.name)}" loading="lazy">`
+    ? `<img class="avatar" src="${esc(p.photo)}" alt="Portrait of ${esc(p.name)}"${focusStyle(p)} loading="lazy">`
     : `<div class="avatar" aria-hidden="true">${initialsOf(p.name)}</div>`;
 
   const badges = (p.trainings && p.trainings.length)
