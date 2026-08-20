@@ -155,10 +155,10 @@ h1,h2,h3,.h1,.h2,.h3{font-family:var(--display);font-weight:500;color:var(--pine
   display:flex;flex-direction:column;
   transition:transform .3s ease,box-shadow .3s ease;}
 .staff-card:hover{transform:translateY(-5px);box-shadow:0 16px 34px rgba(40,30,15,.12);}
-.staff-card .avatar{width:124px;height:124px;border-radius:50%;margin:0 auto 18px;display:grid;
+.staff-card .avatar{width:168px;height:210px;border-radius:12px;margin:0 auto 18px;display:grid;
   place-items:center;font-family:var(--display);font-size:2rem;font-weight:500;color:var(--pine);
   background:var(--sage-tint);object-fit:cover;object-position:50% 30%;
-  box-shadow:0 0 0 1px var(--line),0 0 0 6px var(--surface),0 0 0 7px var(--line);}
+  box-shadow:0 0 0 1px var(--line),0 8px 20px rgba(40,30,15,.10);}
 .staff-card h3{font-size:1.16rem;color:var(--ink);line-height:1.15;margin:0;}
 .staff-card .creds{font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;
   color:var(--amber);font-weight:600;margin-top:5px;}
@@ -231,10 +231,10 @@ h1,h2,h3,.h1,.h2,.h3{font-family:var(--display);font-weight:500;color:var(--pine
 
 /* ---------- bio page ---------- */
 .bio-hero{display:flex;gap:34px;align-items:center;flex-wrap:wrap;}
-.bio-hero .portrait{width:190px;height:190px;border-radius:50%;object-fit:cover;object-position:50% 30%;flex:none;
+.bio-hero .portrait{width:190px;height:238px;border-radius:14px;object-fit:cover;object-position:50% 30%;flex:none;
   background:var(--sage-tint);display:grid;place-items:center;
   font-family:var(--display);font-size:3rem;font-weight:500;color:var(--pine);
-  box-shadow:0 0 0 1px var(--line),0 0 0 8px var(--surface),0 0 0 9px var(--line);}
+  box-shadow:0 0 0 1px var(--line),0 10px 24px rgba(40,30,15,.12);}
 .bio-hero .meta{flex:1 1 320px;}
 .bio-body{max-width:68ch;color:var(--muted);font-size:1.06rem;}
 .bio-body p{margin-bottom:1rem;}
@@ -250,7 +250,7 @@ h1,h2,h3,.h1,.h2,.h3{font-family:var(--display);font-weight:500;color:var(--pine
   .chip-btn{flex:1 1 auto;text-align:center;padding:8px 12px;}
 
   .bio-hero{gap:22px;justify-content:center;text-align:center;}
-  .bio-hero .portrait{width:150px;height:150px;}
+  .bio-hero .portrait{width:150px;height:188px;}
   .bio-hero .meta{flex-basis:100%;}
   .bio-tags{justify-content:center;}
 }
