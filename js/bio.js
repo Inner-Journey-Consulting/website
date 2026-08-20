@@ -26,7 +26,7 @@
     document.title = `${p.name} — Inner Journey Consulting`;
 
     const portrait = p.photo
-      ? `<img class="portrait" src="${esc(p.photo)}" alt="Portrait of ${esc(p.name)}">`
+      ? `<img class="portrait" src="${esc(p.photo)}" alt="Portrait of ${esc(p.name)}"${focusStyle(p)}>`
       : `<div class="portrait" aria-hidden="true">${initialsOf(p.name)}</div>`;
 
     // Blank-line-separated paragraphs -> <p> tags.
