@@ -61,7 +61,7 @@ collections:
                 options:
                   - EMDR
                   - Brainspotting
-                  - Sensory-motor
+                  - Sensorimotor
                   - Jungian/Analytical
               - name: counties
                 label: Counties Served
