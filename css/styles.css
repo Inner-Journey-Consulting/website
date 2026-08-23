@@ -138,7 +138,7 @@ h1,h2,h3,.h1,.h2,.h3{font-family:var(--display);font-weight:500;color:var(--pine
   padding:18px 22px;}
 .frow{display:flex;flex-wrap:wrap;align-items:center;gap:9px;}
 .frow + .frow{margin-top:14px;padding-top:14px;border-top:1px solid var(--line);}
-.frow .flabel{flex:0 0 96px;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;
+.frow .flabel{flex:0 0 120px;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;
   color:var(--muted);font-weight:600;}
 .chip-btn{font-family:var(--body);font-size:.88rem;font-weight:500;cursor:pointer;padding:6px 14px;
   border-radius:999px;border:1px solid var(--sage);background:transparent;color:var(--pine-soft);transition:.16s;}

@@ -21,7 +21,7 @@
     return `<div class="frow" data-facet="${facet}"><span class="flabel">${label}</span>${buttons}</div>`;
   }
   filtersEl.innerHTML =
-    buildRow("county", "County", COUNTIES) +
+    buildRow("county", "CCS County", COUNTIES) +
     buildRow("role", "Role", ROLES) +
     buildRow("training", "Training", TRAININGS);
 
