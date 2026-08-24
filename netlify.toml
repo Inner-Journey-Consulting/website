@@ -17,6 +17,13 @@
   to = "/admin/index.html"
   status = 200
 
+# Serve the post-submit thank-you page at /thanks, which is where the contact
+# form posts to. Mirrors the /admin rule above.
+[[redirects]]
+  from = "/thanks"
+  to = "/thanks.html"
+  status = 200
+
 # Keep the CMS admin out of search results.
 [[headers]]
   for = "/admin/*"
