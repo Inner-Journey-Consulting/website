@@ -65,22 +65,21 @@
       "order": 3
     },
     {
-      "name": "Grant Clark",
-      "credentials": "MS, LPC-IT",
-      "role": "Psychotherapist",
+      "name": "Matt Becker",
+      "credentials": "BA",
+      "role": "Youth Support Specialist",
       "roles": [
-        "Psychotherapist"
+        "Youth/Peer Support"
       ],
       "trainings": [],
       "counties": [
-        "Washington",
-        "Ozaukee",
+        "Waukesha",
         "Jefferson"
       ],
-      "bio": "Hi, I’m Grant Clark, a psychotherapist with a background working with teens, adults, and elderly clients, with an emphasis on men and adolescents, primarily navigating identity-related concerns, depression, ADHD, and anxiety.\n\nI take a neurodivergent-affirming and trauma-focused approach working with my clients, primarily using Acceptance and Commitment Therapy (ACT) and Existential Therapy. In sessions, this means helping clients develop more flexible ways of responding to difficult thoughts, emotions, and life challenges by identifying personal values and meaning so that they can take steps to live a more fulfilling life. I also incorporate other modalities like Dialectical Behavioral Therapy (DBT) and somatic-based approaches to provide skills when appropriate.\n\nOutside of the office, I spend most of my time doing various arts and crafts, playing games, working out, or being out in nature.",
-      "photo": "/assets/team/GClark+Headshot-EDIT.webp",
-      "photoFocus": "50% 30%",
-      "order": 6
+      "bio": "Matt has a BA in fine arts and worked as a graphic designer for over 20 years. He decided to switch to helping children and families, and became certified to do so. He has volunteered with various organizations, including Artists Working in Education, which went to different Milwaukee County parks and did art projects with kids.\n\nMatt is dedicated to helping families and individuals develop skills in problem solving, self-awareness, communication and self-regulation. He is also dedicated to helping individuals with real life skills and independent living skills. He is interested in using art to help foster skills and communicate emotions and feelings, as well as a creative outlet.\n\nIn his free time Matt enjoys creating art, particularly drawing; listening to music and going to concerts; spending time with family and friends; working on cars; reading; learning about history; and watching and playing basketball.",
+      "photo": "/assets/team/unnamed-1.webp",
+      "photoFocus": "53% 20%",
+      "order": 4
     },
     {
       "name": "Thoy Bouakongxaya",
@@ -99,102 +98,58 @@
       "order": 5
     },
     {
-      "name": "Michelle Townsend de López",
-      "credentials": "MDiv, MFT-IT",
+      "name": "Grant Clark",
+      "credentials": "MS, LPC-IT",
       "role": "Psychotherapist",
       "roles": [
-        "Family Engagement/Psycho-Education"
+        "Psychotherapist"
       ],
       "trainings": [],
       "counties": [
-        "Jefferson",
+        "Washington",
         "Ozaukee",
-        "Waukesha"
-      ],
-      "bio": "A highly skilled bilingual professional, adept at navigating diverse cultural and faith-based environments and communicating fluidly in customs and culture. A strong educational background and extensive experience in both domestic and international settings, I demonstrate exceptional adaptability and a keen understanding of navigating the realities in urban, suburban and rural contexts. A strong commitment to empower individuals to deconstruct the biases and negative narratives and gain tools to reconstruct your lived reality with grace and strength. Our lives are about learning to flourish in difficult circumstances and still show up and appreciate the becoming of your best self.",
-      "photo": "/assets/team/MTownsend+de+López+Headshot.webp",
-      "photoFocus": "60% 52%",
-      "order": 29
-    },
-    {
-      "name": "Lily Guth",
-      "credentials": "BSW, CSW",
-      "role": "Youth Support Specialist",
-      "roles": [
-        "Youth/Peer Support"
-      ],
-      "trainings": [],
-      "counties": [
-        "Jefferson",
-        "Dodge"
-      ],
-      "bio": "Hi, I’m Lily (she/her), a BIPOC adoptee and certified social worker with experience ranging from child protection services to supporting adults with disabilities and children with special needs. I’m a big foodie, animal lover, and outdoors enthusiast. I’m married with a blended family, including two wonderful children with special needs, and I’ll be starting my Master of Social Work at the University of Denver in 2026. I’m truly looking forward to connecting and working with you!",
-      "photo": "/assets/team/LGuth+Headshot+(1).webp",
-      "photoFocus": "50% 25%",
-      "order": 11
-    },
-    {
-      "name": "Tim Nett",
-      "credentials": "MS",
-      "role": "Youth Support Specialist",
-      "roles": [
-        "Youth/Peer Support"
-      ],
-      "trainings": [],
-      "counties": [
-        "Dodge",
-        "Jefferson",
-        "Waukesha"
-      ],
-      "bio": "Tim Nett earned a Bachelor of Science in Psychology from St. Norbert College and a Master of Science in Family Relations & Child Development, Marriage & Family Therapy from Oklahoma State University. In addition to his clinical training, Tim brings more than 20 years of experience in Human Resources, giving him a deep understanding of how individuals, families, workplaces, and systems shape our lives and relationships.\n\nAs the youngest of ten children and a father himself, Tim understands the complexity of family dynamics, relationships, resilience, and personal growth. Raised in a family business focused on residential construction, he developed a lifelong appreciation for creating, building, and problem-solving—whether through remodeling, landscaping, or helping people rebuild and strengthen their lives.\n\nIn 2018, Tim was diagnosed with Parkinson’s disease, a journey that has deepened his empathy, resilience, and perspective. While Parkinson’s is part of his story, it does not define it. Tim is an active advocate, volunteer, and ambassador, helping raise awareness, support, education, and research funding for individuals and families impacted by Parkinson’s disease.\n\nTim’s creativity extends into music, where he performs classic and popular songs as a vocalist, saxophonist, and harmonica player. His love for music reflects the same energy, authenticity, and human connection he values in his work with clients.\n\nKnown for his compassionate, grounded, and often playful approach, Tim believes meaningful change begins when people feel genuinely seen, heard, and understood. He works collaboratively with clients, drawing from their strengths, experiences, and goals to support healing, growth, and lasting change.\n\nTim believes that growth happens in relationships, healing begins with connection, and no one should have to navigate life’s challenges alone.",
-      "photo": "/assets/team/TNett+Headshot+Edit.webp",
-      "photoFocus": "51% 29%",
-      "order": 19
-    },
-    {
-      "name": "Hollie Zellmer",
-      "credentials": "Office Manager",
-      "role": "Program Support",
-      "roles": [
-        "Program Support"
-      ],
-      "trainings": [],
-      "counties": [],
-      "bio": "",
-      "photo": "/assets/team/0-2.webp",
-      "photoFocus": "48% 40%",
-      "order": 33
-    },
-    {
-      "name": "Paul Vasholz",
-      "credentials": "Technical & Public Policy Advisor",
-      "role": "Program Support",
-      "roles": [
-        "Program Support"
-      ],
-      "trainings": [],
-      "counties": [],
-      "bio": "",
-      "photo": "/assets/team/PXL_20230513_232948804.jpg",
-      "photoFocus": "78% 49%",
-      "order": 34
-    },
-    {
-      "name": "Matt Becker",
-      "credentials": "BA",
-      "role": "Youth Support Specialist",
-      "roles": [
-        "Youth/Peer Support"
-      ],
-      "trainings": [],
-      "counties": [
-        "Waukesha",
         "Jefferson"
       ],
-      "bio": "Matt has a BA in fine arts and worked as a graphic designer for over 20 years. He decided to switch to helping children and families, and became certified to do so. He has volunteered with various organizations, including Artists Working in Education, which went to different Milwaukee County parks and did art projects with kids.\n\nMatt is dedicated to helping families and individuals develop skills in problem solving, self-awareness, communication and self-regulation. He is also dedicated to helping individuals with real life skills and independent living skills. He is interested in using art to help foster skills and communicate emotions and feelings, as well as a creative outlet.\n\nIn his free time Matt enjoys creating art, particularly drawing; listening to music and going to concerts; spending time with family and friends; working on cars; reading; learning about history; and watching and playing basketball.",
-      "photo": "/assets/team/unnamed-1.webp",
-      "photoFocus": "53% 20%",
-      "order": 4
+      "bio": "Hi, I’m Grant Clark, a psychotherapist with a background working with teens, adults, and elderly clients, with an emphasis on men and adolescents, primarily navigating identity-related concerns, depression, ADHD, and anxiety.\n\nI take a neurodivergent-affirming and trauma-focused approach working with my clients, primarily using Acceptance and Commitment Therapy (ACT) and Existential Therapy. In sessions, this means helping clients develop more flexible ways of responding to difficult thoughts, emotions, and life challenges by identifying personal values and meaning so that they can take steps to live a more fulfilling life. I also incorporate other modalities like Dialectical Behavioral Therapy (DBT) and somatic-based approaches to provide skills when appropriate.\n\nOutside of the office, I spend most of my time doing various arts and crafts, playing games, working out, or being out in nature.",
+      "photo": "/assets/team/GClark+Headshot-EDIT.webp",
+      "photoFocus": "50% 30%",
+      "order": 6
+    },
+    {
+      "name": "Josh Connor",
+      "credentials": "MSW, APSW",
+      "role": "Psychotherapist",
+      "roles": [
+        "Psychotherapist"
+      ],
+      "trainings": [
+        "Brainspotting",
+        "Sensory-motor",
+        "Jungian/Analytical"
+      ],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "As a psychotherapist, I help individuals and families develop a deeper understanding of their emotional lives. When I work with clients my goal, beyond treating behavioral problems or mental health issues, is to understand who they are, what the world feels like to them, and to build a relationship with them that allows them to gain better access to their own experience and inner sense of integrity. \n\n I earned my MSW from Fordham University in the Bronx, where I completed an internship in adult psychotherapy at the Institute for Family Health. I did my generalist internship at the City of Chicago’s Department of Family Support and Services, working with families in crisis to stabilize them and connect them to sources of support in the city.\n\n I have experience working with clients from many backgrounds and conditions, but have a few areas of specialization: trauma (PTSD and C-PTSD), chronic illness, and major life transitions (divorce, loss, changing careers or locations). I’m currently training in sensorimotor psychotherapy, an approach to treating trauma and relational injuries that uses mindful processing of bodily feelings to heal traumatic memories. I have additional training in psychoanalytic therapy and human development.\n\n I’m looking forward to returning to CSS. I believe that, especially with adolescents, understanding problematic behavior is almost always a matter of understanding the family. I like working actively and creatively with teens (going hikes, playing games), and find it builds trust and a sense of engagement. One of my goals for the next year is to deepen my understanding of family dynamics and work with a family as a unit.\n\nIn my spare time, I like to play some hockey, hike in the woods, read philosophy, and learn about the ecology of the Upper Midwest.",
+      "photo": "/assets/team/JConnor_BIo.jpg",
+      "photoFocus": "48% 30%",
+      "order": 7
+    },
+    {
+      "name": "Jenna Cusack",
+      "credentials": "MSW, APSW",
+      "role": "Psychotherapist",
+      "roles": [
+        "Psychotherapist"
+      ],
+      "trainings": [],
+      "counties": [
+        "Waukesha"
+      ],
+      "bio": "Jenna is a Psychotherapist with three years of mental health experience in inpatient, residential, and outpatient settings. She earned her Master of Social Work from the University of Wisconsin-Milwaukee and has experience working with adolescents and adults experiencing anxiety, depression, OCD, trauma, eating disorders, and bipolar disorders. Jenna has a particular passion for working with adolescents and found her time on an adolescent residential unit especially meaningful.\n\nGrowing up in a rural community, Jenna understands how access to mental health care, transportation, community resources, and other barriers can impact a person’s ability to receive support. This has shaped her belief in looking at the whole person, meeting clients where they are, and considering the circumstances that influence their mental health.\n\nJenna uses a strength-based, collaborative, and trauma-informed approach. She draws from DBT skills, somatic approaches, and values-based work and is trained in Trauma-Focused Cognitive Behavioral Therapy (TF-CBT) and Cognitive Processing Therapy (CPT). She is particularly interested in the mind-body connection and helping clients understand how anxiety, stress, and trauma can show up emotionally and physically.\n\nJenna believes therapy should feel genuine, approachable, and comfortable. She enjoys meeting clients where they are and creating a space where they can feel understood, supported, and free to be themselves. Outside of therapy, Jenna enjoys playing tennis, reading, spending time with friends and family, and hanging out with her cats.",
+      "photo": "/assets/team/Profile Pic.jpeg",
+      "photoFocus": "50% 30%",
+      "order": 8
     },
     {
       "name": "Ari Dragovich",
@@ -267,6 +222,23 @@
       "photo": "/assets/team/0 (1).webp",
       "photoFocus": "80% 30%",
       "order": 10
+    },
+    {
+      "name": "Lily Guth",
+      "credentials": "BSW, CSW",
+      "role": "Youth Support Specialist",
+      "roles": [
+        "Youth/Peer Support"
+      ],
+      "trainings": [],
+      "counties": [
+        "Jefferson",
+        "Dodge"
+      ],
+      "bio": "Hi, I’m Lily (she/her), a BIPOC adoptee and certified social worker with experience ranging from child protection services to supporting adults with disabilities and children with special needs. I’m a big foodie, animal lover, and outdoors enthusiast. I’m married with a blended family, including two wonderful children with special needs, and I’ll be starting my Master of Social Work at the University of Denver in 2026. I’m truly looking forward to connecting and working with you!",
+      "photo": "/assets/team/LGuth+Headshot+(1).webp",
+      "photoFocus": "50% 25%",
+      "order": 11
     },
     {
       "name": "Alex Herrmann",
@@ -371,6 +343,24 @@
       "photo": "/assets/team/SMcCormick+Headshot.webp",
       "photoFocus": "48% 38%",
       "order": 18
+    },
+    {
+      "name": "Tim Nett",
+      "credentials": "MS",
+      "role": "Youth Support Specialist",
+      "roles": [
+        "Youth/Peer Support"
+      ],
+      "trainings": [],
+      "counties": [
+        "Dodge",
+        "Jefferson",
+        "Waukesha"
+      ],
+      "bio": "Tim Nett earned a Bachelor of Science in Psychology from St. Norbert College and a Master of Science in Family Relations & Child Development, Marriage & Family Therapy from Oklahoma State University. In addition to his clinical training, Tim brings more than 20 years of experience in Human Resources, giving him a deep understanding of how individuals, families, workplaces, and systems shape our lives and relationships.\n\nAs the youngest of ten children and a father himself, Tim understands the complexity of family dynamics, relationships, resilience, and personal growth. Raised in a family business focused on residential construction, he developed a lifelong appreciation for creating, building, and problem-solving—whether through remodeling, landscaping, or helping people rebuild and strengthen their lives.\n\nIn 2018, Tim was diagnosed with Parkinson’s disease, a journey that has deepened his empathy, resilience, and perspective. While Parkinson’s is part of his story, it does not define it. Tim is an active advocate, volunteer, and ambassador, helping raise awareness, support, education, and research funding for individuals and families impacted by Parkinson’s disease.\n\nTim’s creativity extends into music, where he performs classic and popular songs as a vocalist, saxophonist, and harmonica player. His love for music reflects the same energy, authenticity, and human connection he values in his work with clients.\n\nKnown for his compassionate, grounded, and often playful approach, Tim believes meaningful change begins when people feel genuinely seen, heard, and understood. He works collaboratively with clients, drawing from their strengths, experiences, and goals to support healing, growth, and lasting change.\n\nTim believes that growth happens in relationships, healing begins with connection, and no one should have to navigate life’s challenges alone.",
+      "photo": "/assets/team/TNett+Headshot+Edit.webp",
+      "photoFocus": "51% 29%",
+      "order": 19
     },
     {
       "name": "Paula Payne",
@@ -531,6 +521,38 @@
       "order": 28
     },
     {
+      "name": "Michelle Townsend de López",
+      "credentials": "MDiv, MFT-IT",
+      "role": "Psychotherapist",
+      "roles": [
+        "Family Engagement/Psycho-Education"
+      ],
+      "trainings": [],
+      "counties": [
+        "Jefferson",
+        "Ozaukee",
+        "Waukesha"
+      ],
+      "bio": "A highly skilled bilingual professional, adept at navigating diverse cultural and faith-based environments and communicating fluidly in customs and culture. A strong educational background and extensive experience in both domestic and international settings, I demonstrate exceptional adaptability and a keen understanding of navigating the realities in urban, suburban and rural contexts. A strong commitment to empower individuals to deconstruct the biases and negative narratives and gain tools to reconstruct your lived reality with grace and strength. Our lives are about learning to flourish in difficult circumstances and still show up and appreciate the becoming of your best self.",
+      "photo": "/assets/team/MTownsend+de+López+Headshot.webp",
+      "photoFocus": "60% 52%",
+      "order": 29
+    },
+    {
+      "name": "Paul Vasholz",
+      "credentials": "Technical & Public Policy Advisor",
+      "role": "Program Support",
+      "roles": [
+        "Program Support"
+      ],
+      "trainings": [],
+      "counties": [],
+      "bio": "",
+      "photo": "/assets/team/PXL_20230513_232948804.jpg",
+      "photoFocus": "78% 49%",
+      "order": 34
+    },
+    {
       "name": "Maureen Villars",
       "credentials": "MSW, APSW",
       "role": "Psychotherapist",
@@ -565,40 +587,18 @@
       "order": 31
     },
     {
-      "name": "Josh Connor",
-      "credentials": "MSW, APSW",
-      "role": "Psychotherapist",
+      "name": "Hollie Zellmer",
+      "credentials": "Office Manager",
+      "role": "Program Support",
       "roles": [
-        "Psychotherapist"
-      ],
-      "trainings": [
-        "Brainspotting",
-        "Sensory-motor",
-        "Jungian/Analytical"
-      ],
-      "counties": [
-        "Waukesha"
-      ],
-      "bio": "As a psychotherapist, I help individuals and families develop a deeper understanding of their emotional lives. When I work with clients my goal, beyond treating behavioral problems or mental health issues, is to understand who they are, what the world feels like to them, and to build a relationship with them that allows them to gain better access to their own experience and inner sense of integrity. \n\n I earned my MSW from Fordham University in the Bronx, where I completed an internship in adult psychotherapy at the Institute for Family Health. I did my generalist internship at the City of Chicago’s Department of Family Support and Services, working with families in crisis to stabilize them and connect them to sources of support in the city.\n\n I have experience working with clients from many backgrounds and conditions, but have a few areas of specialization: trauma (PTSD and C-PTSD), chronic illness, and major life transitions (divorce, loss, changing careers or locations). I’m currently training in sensorimotor psychotherapy, an approach to treating trauma and relational injuries that uses mindful processing of bodily feelings to heal traumatic memories. I have additional training in psychoanalytic therapy and human development.\n\n I’m looking forward to returning to CSS. I believe that, especially with adolescents, understanding problematic behavior is almost always a matter of understanding the family. I like working actively and creatively with teens (going hikes, playing games), and find it builds trust and a sense of engagement. One of my goals for the next year is to deepen my understanding of family dynamics and work with a family as a unit.\n\nIn my spare time, I like to play some hockey, hike in the woods, read philosophy, and learn about the ecology of the Upper Midwest.",
-      "photo": "/assets/team/JConnor_BIo.jpg",
-      "photoFocus": "48% 30%",
-      "order": 7
-    },
-    {
-      "name": "Jenna Cusack",
-      "credentials": "MSW, APSW",
-      "role": "Psychotherapist",
-      "roles": [
-        "Psychotherapist"
+        "Program Support"
       ],
       "trainings": [],
-      "counties": [
-        "Waukesha"
-      ],
-      "bio": "Jenna is a Psychotherapist with three years of mental health experience in inpatient, residential, and outpatient settings. She earned her Master of Social Work from the University of Wisconsin-Milwaukee and has experience working with adolescents and adults experiencing anxiety, depression, OCD, trauma, eating disorders, and bipolar disorders. Jenna has a particular passion for working with adolescents and found her time on an adolescent residential unit especially meaningful.\n\nGrowing up in a rural community, Jenna understands how access to mental health care, transportation, community resources, and other barriers can impact a person’s ability to receive support. This has shaped her belief in looking at the whole person, meeting clients where they are, and considering the circumstances that influence their mental health.\n\nJenna uses a strength-based, collaborative, and trauma-informed approach. She draws from DBT skills, somatic approaches, and values-based work and is trained in Trauma-Focused Cognitive Behavioral Therapy (TF-CBT) and Cognitive Processing Therapy (CPT). She is particularly interested in the mind-body connection and helping clients understand how anxiety, stress, and trauma can show up emotionally and physically.\n\nJenna believes therapy should feel genuine, approachable, and comfortable. She enjoys meeting clients where they are and creating a space where they can feel understood, supported, and free to be themselves. Outside of therapy, Jenna enjoys playing tennis, reading, spending time with friends and family, and hanging out with her cats.",
-      "photo": "/assets/team/Profile Pic.jpeg",
-      "photoFocus": "50% 30%",
-      "order": 8
+      "counties": [],
+      "bio": "",
+      "photo": "/assets/team/0-2.webp",
+      "photoFocus": "48% 40%",
+      "order": 33
     }
   ]
 }
