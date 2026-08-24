@@ -23,7 +23,7 @@ const ROLES = [
 const TRAININGS = [
   "EMDR",
   "Brainspotting",
-  "Sensory-motor",
+  "Sensorimotor",
   "Jungian/Analytical"
 ];
 
