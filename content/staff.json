@@ -11,6 +11,7 @@
         "EMDR",
         "Jungian/Analytical"
       ],
+      "availability": "",
       "counties": [
         "Waukesha",
         "Jefferson",
@@ -36,6 +37,7 @@
         "EMDR",
         "Brainspotting"
       ],
+      "availability": "",
       "counties": [
         "Waukesha"
       ],
@@ -54,6 +56,7 @@
       "trainings": [
         "EMDR"
       ],
+      "availability": "",
       "counties": [
         "Dodge",
         "Waukesha",
@@ -72,6 +75,7 @@
         "Youth/Peer Support"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha",
         "Jefferson"
@@ -89,6 +93,7 @@
         "Psychotherapist"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha"
       ],
@@ -105,6 +110,7 @@
         "Psychotherapist"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Washington",
         "Ozaukee",
@@ -127,6 +133,7 @@
         "Jungian/Analytical",
         "Sensorimotor"
       ],
+      "availability": "",
       "counties": [
         "Waukesha",
         "Dodge",
@@ -146,6 +153,7 @@
         "Psychotherapist"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha",
         "Dodge",
@@ -165,6 +173,7 @@
         "Family Engagement/Psycho-Education"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha",
         "Ozaukee",
@@ -184,6 +193,7 @@
         "Family Engagement/Psycho-Education"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha"
       ],
@@ -200,6 +210,7 @@
         "Psychotherapist"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha",
         "Jefferson",
@@ -220,6 +231,7 @@
         "Youth/Peer Support"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha"
       ],
@@ -236,6 +248,7 @@
         "Youth/Peer Support"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Jefferson",
         "Dodge"
@@ -253,6 +266,7 @@
         "Youth/Peer Support"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha",
         "Dodge",
@@ -271,6 +285,7 @@
         "Youth/Peer Support"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha"
       ],
@@ -288,6 +303,7 @@
         "Family Engagement/Psycho-Education"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha"
       ],
@@ -304,6 +320,7 @@
         "Psychotherapist"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha"
       ],
@@ -321,6 +338,7 @@
         "Family Engagement/Psycho-Education"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha",
         "Ozaukee"
@@ -338,6 +356,7 @@
         "Psychotherapist"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha",
         "Jefferson",
@@ -357,6 +376,7 @@
         "Youth/Peer Support"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Dodge",
         "Jefferson",
@@ -376,10 +396,11 @@
         "Family Engagement/Psycho-Education"
       ],
       "trainings": [],
+      "availability": "Accepting",
       "counties": [
         "Waukesha"
       ],
-      "bio": "Paula is a Youth Support and Family Engagement Specialist with over 15 years of experience working in mental health, education, and social services settings.  She has a Masters degree in Community Counseling from Lakeland College and demonstrated success working as a director of before and after school programs, special education teacher and paraprofessional in MPS, youth counselor in residential treatment, supervised visitation worker supporting families engaged in child welfare, and caring for the elderly. \n\nPaula is passionate about advocating for and supporting families and is dedicated to helping individuals develop problem solving, communication, emotional awareness and regulations, as well as life or independent living skills.  She is also particularly interested in exploring values and character education as well as self-exploration and knowledge exercises.  \n\nIn her free time Paula enjoys travel (including a trip to Italy for a language immersion course), different genres of music and singing, cooking, spending time with her family, and researching her family history, considering herself an amateur genealogist.\n\nPaula is excited to begin this new journey with Inner Journey and is available for Skills Development, Wellness Management, and Psycho-education services through Waukesha County CCS.",
+      "bio": "Paula is a Youth Support and Family Engagement Specialist with over 15 years of experience working in mental health, education, and social services settings.  She has a Masters degree in Community Counseling from Lakeland College and demonstrated success working as a director of before and after school programs, special education teacher and paraprofessional in MPS, youth counselor in residential treatment, supervised visitation worker supporting families engaged in child welfare, and caring for the elderly. \n\nPaula is passionate about advocating for and supporting families and is dedicated to helping individuals develop problem solving, communication, emotional awareness and regulations, as well as life or independent living skills.  She is also particularly interested in exploring values and character education as well as self-exploration and knowledge exercises.  \n\nIn her free time Paula enjoys travel (including a trip to Italy for a language immersion course), different genres of music and singing, cooking, spending time with her family, and researching her family history, considering herself an amateur genealogist.\n\nThis is Paula's 3rd year with Inner Journey and is available for Skills Development, Wellness Management, and Psycho-education services through Waukesha County CCS.",
       "photo": "/assets/team/0 (2).webp",
       "photoFocus": "51% 46%",
       "order": 21
@@ -392,6 +413,7 @@
         "Psychotherapist"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha"
       ],
@@ -408,6 +430,7 @@
         "Psychotherapist"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha",
         "Ozaukee"
@@ -425,6 +448,7 @@
         "Youth/Peer Support"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha",
         "Ozaukee",
@@ -444,6 +468,7 @@
         "Psychotherapist"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Jefferson",
         "Dodge"
@@ -461,6 +486,7 @@
         "Youth/Peer Support"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Dodge"
       ],
@@ -477,6 +503,7 @@
         "Youth/Peer Support"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha",
         "Dodge",
@@ -497,6 +524,7 @@
       "trainings": [
         "EMDR"
       ],
+      "availability": "",
       "counties": [
         "Waukesha",
         "Walworth",
@@ -515,6 +543,7 @@
         "Youth/Peer Support"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha",
         "Jefferson",
@@ -533,6 +562,7 @@
         "Family Engagement/Psycho-Education"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Jefferson",
         "Ozaukee",
@@ -551,6 +581,7 @@
         "Program Support"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [],
       "bio": "",
       "photo": "/assets/team/PXL_20230513_232948804.jpg",
@@ -565,6 +596,7 @@
         "Psychotherapist"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha",
         "Walworth"
@@ -583,6 +615,7 @@
         "Family Engagement/Psycho-Education"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [
         "Waukesha"
       ],
@@ -599,6 +632,7 @@
         "Program Support"
       ],
       "trainings": [],
+      "availability": "",
       "counties": [],
       "bio": "",
       "photo": "/assets/team/0-2.webp",
