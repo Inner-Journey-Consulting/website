@@ -266,7 +266,7 @@
         "Youth/Peer Support"
       ],
       "trainings": [],
-      "availability": "",
+      "availability": "Waitlist",
       "counties": [
         "Waukesha",
         "Dodge",
@@ -303,7 +303,7 @@
         "Family Engagement/Psycho-Education"
       ],
       "trainings": [],
-      "availability": "",
+      "availability": "Accepting",
       "counties": [
         "Waukesha"
       ],
@@ -320,7 +320,7 @@
         "Psychotherapist"
       ],
       "trainings": [],
-      "availability": "",
+      "availability": "Full",
       "counties": [
         "Waukesha"
       ],
@@ -524,7 +524,7 @@
       "trainings": [
         "EMDR"
       ],
-      "availability": "",
+      "availability": "Waitlist",
       "counties": [
         "Waukesha",
         "Walworth",
@@ -596,7 +596,7 @@
         "Psychotherapist"
       ],
       "trainings": [],
-      "availability": "",
+      "availability": "Waitlist",
       "counties": [
         "Waukesha",
         "Walworth"
