@@ -37,10 +37,14 @@ for the one-time hosting + CMS wiring.
 - **Staff (Carl / Holly):** go to `/admin/`, sign in with GitHub, edit the Team
   Members list, and Save. It commits to the repo and the site republishes. No
   code, no file copying. Setup is in **SETUP.md**.
-- **Categories (developer):** counties, roles, and trainings are controlled lists
-  defined in BOTH `js/staff.js` (site) and `admin/config.yml` (CMS dropdowns).
-  Add a new one to both files. This is deliberately a code edit, so the lists
-  stay controlled.
+- **Categories (developer):** counties, roles, trainings, and availability are
+  controlled lists defined in BOTH `js/staff.js` (site) and `admin/config.yml`
+  (CMS dropdowns). Add a new one to both files. This is deliberately a code edit,
+  so the lists stay controlled.
+- **Availability (Carl / Holly):** each person can be marked Accepting, Waitlist,
+  or Full in the CMS. It shows as a badge on the team and bio pages and is
+  filterable on Who We Are. Leaving it blank shows no badge — preferred over
+  advertising availability nobody has confirmed.
 - **Retheme:** change the color tokens in the `:root` block of `css/styles.css`.
 - **Nav / footer:** edit `js/site.js` (defined once, shown on every page).
 
