@@ -27,6 +27,11 @@ const TRAININGS = [
   "Jungian/Analytical"
 ];
 
+/* Whether someone is taking new clients. Unlike the lists above this is a
+   single value per person, and it may be unset — a record with no value shows
+   no badge rather than claiming availability nobody has confirmed. */
+const AVAILABILITY = ["Accepting", "Waitlist", "Full"];
+
 async function loadStaff(){
   try {
     const res = await fetch("content/staff.json", { cache: "no-store" });

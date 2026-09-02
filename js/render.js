@@ -33,6 +33,19 @@ function focusStyle(p){
   return /^[\d.]+%\s+[\d.]+%$/.test(f) ? ` style="object-position:${f}"` : "";
 }
 
+/* Availability badge. Three channels carry the meaning, not colour alone:
+   the word itself, the tint, and the glyph shape (filled / half / ring), so it
+   still reads under colour blindness and in greyscale. An unset or unknown
+   value renders nothing. */
+const AVAIL_SLUG = { "Accepting": "open", "Waitlist": "wait", "Full": "full" };
+function availBadge(p){
+  const slug = AVAIL_SLUG[(p.availability || "").trim()];
+  if (!slug) return "";
+  return `<div class="avail-wrap"><span class="avail avail-${slug}">` +
+         `<span class="avail-glyph" aria-hidden="true"></span>${esc(p.availability.trim())}` +
+         `</span></div>`;
+}
+
 /* Build one staff card (returns a Bootstrap column element). */
 function buildStaffCard(p){
   const col = document.createElement("div");
@@ -59,11 +72,13 @@ function buildStaffCard(p){
     <div class="staff-card"
          data-counties="${esc((p.counties || []).join(","))}"
          data-roles="${esc((p.roles || []).join(","))}"
-         data-trainings="${esc((p.trainings || []).join(","))}">
+         data-trainings="${esc((p.trainings || []).join(","))}"
+         data-availability="${esc((p.availability || "").trim())}">
       ${avatar}
       <h3>${esc(p.name)}</h3>
       ${p.credentials ? `<div class="creds">${esc(p.credentials)}</div>` : ""}
       <div class="role">${esc(p.role)}</div>
+      ${availBadge(p)}
       ${badges}
       ${footer}
       <div class="spacer"></div>

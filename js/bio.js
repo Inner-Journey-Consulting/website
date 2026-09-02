@@ -53,6 +53,7 @@
           <h1 style="font-size:clamp(2rem,4.5vw,2.8rem)">${esc(p.name)}</h1>
           ${p.credentials ? `<div class="creds mt-1" style="color:var(--amber);font-weight:600;
              letter-spacing:.12em;text-transform:uppercase;font-size:.8rem">${esc(p.credentials)}</div>` : ""}
+          ${availBadge(p)}
           ${tags ? `<div class="bio-tags">${tags}</div>` : ""}
         </div>
       </div>

@@ -63,6 +63,18 @@ collections:
                   - Brainspotting
                   - Sensorimotor
                   - Jungian/Analytical
+              - name: availability
+                label: Accepting New Clients?
+                widget: select
+                required: false
+                options:
+                  - Accepting
+                  - Waitlist
+                  - Full
+                hint: >-
+                  Shown as a badge on the team page, and filterable there. Leave
+                  blank if you are not sure — a blank shows no badge at all, which
+                  is safer than advertising availability that has not been confirmed.
               - name: counties
                 label: Counties Served
                 widget: select

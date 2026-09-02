@@ -1,6 +1,6 @@
 /* =========================================================================
-   team.js — Who We Are directory: three filter rows (County / Role /
-   Training) combined with AND logic, plus an empty state.
+   team.js — Who We Are directory: four filter rows (CCS County / Role /
+   Training / Availability) combined with AND logic, plus an empty state.
    Reads records via loadStaff() (staff.js) and renders with buildStaffCard()
    (render.js).
    ========================================================================= */
@@ -11,8 +11,9 @@
   const filtersEl = document.getElementById("filters");
   const countEl = document.getElementById("count");
   const emptyEl = document.getElementById("empty");
-  const active = { county: "all", role: "all", training: "all" };
-  const facetToData = { county: "counties", role: "roles", training: "trainings" };
+  const active = { county: "all", role: "all", training: "all", availability: "all" };
+  const facetToData = { county: "counties", role: "roles", training: "trainings",
+                        availability: "availability" };
 
   function buildRow(facet, label, values) {
     const buttons = ['<button class="chip-btn active" data-value="all">All</button>']
@@ -23,7 +24,8 @@
   filtersEl.innerHTML =
     buildRow("county", "CCS County", COUNTIES) +
     buildRow("role", "Role", ROLES) +
-    buildRow("training", "Training", TRAININGS);
+    buildRow("training", "Training", TRAININGS) +
+    buildRow("availability", "Availability", AVAILABILITY);
 
   let cards = [];
   let total = 0;
@@ -37,7 +39,8 @@
     cards.forEach(card => {
       const ok = matches(card, "county", active.county)
               && matches(card, "role", active.role)
-              && matches(card, "training", active.training);
+              && matches(card, "training", active.training)
+              && matches(card, "availability", active.availability);
       const col = card.closest("[class*='col-']");
       if (col) col.classList.toggle("d-none", !ok);
       if (ok) shown++;
@@ -47,6 +50,7 @@
     if (active.county !== "all") parts.push(active.county + " County");
     if (active.role !== "all") parts.push(active.role);
     if (active.training !== "all") parts.push(active.training);
+    if (active.availability !== "all") parts.push(active.availability);
     if (shown === 0) countEl.textContent = "";
     else if (parts.length) countEl.textContent = `Showing ${shown} of ${total} — ${parts.join(" · ")}`;
     else countEl.textContent = `Showing all ${total} team members`;
