@@ -573,21 +573,6 @@
       "order": 30
     },
     {
-      "name": "Paul Vasholz",
-      "credentials": "Technical & Public Policy Advisor",
-      "role": "Program Support",
-      "roles": [
-        "Program Support"
-      ],
-      "trainings": [],
-      "availability": "",
-      "counties": [],
-      "bio": "",
-      "photo": "/assets/team/PXL_20230513_232948804.jpg",
-      "photoFocus": "78% 49%",
-      "order": 31
-    },
-    {
       "name": "Maureen Villars",
       "credentials": "MSW, APSW",
       "role": "Psychotherapist",
@@ -603,7 +588,7 @@
       "bio": "Maureen “Mo” Villars, an Advanced Practice Social Worker, is honored to be part of Inner Journey’s team as a psychotherapist supporting clients of all ages. She has over 10 years of experience supporting individuals and families as they build resilience while navigating through the challenges of anxiety, depression, severe and persistent mental illness, personality disorders, and suicidality, to name a few.  \n\nAs an ADHD mom of children with Autism and ADHD, she has experience living in “chaos” (like a squirrel trying to corral a herd of baby squirrels).  Her humorous and nonjudgmental attitude supports clients who feel overwhelmed, unsure, and even skeptical. Trained in Dialectical Behavioral Therapy (DBT), Maureen uses and teaches skills to help families work toward a life that feels more manageable, more meaningful, and, yes, a lot calmer.",
       "photo": "/assets/team/MV+Photo.webp",
       "photoFocus": "52% 40%",
-      "order": 32
+      "order": 31
     },
     {
       "name": "Allison Wojnar",
@@ -621,6 +606,21 @@
       "bio": "Allison has supported both residential and inpatient behavioral health programs for adults, children, and adolescents. She also has 10 years of experience working with autistic children and their families. She is experienced in conducting sessions in the home, community, or in clinic-based settings. Allison has worked with individuals living with depression, anxiety, OCD, borderline personality disorder, schizophrenia, and substance use disorders. Allison has also conducted psychoeducational groups on CBT and DBT skills.\n\nProfessional interests include assent based and trauma informed care, neurodiversity, and harm reduction. \n\nIn her free time, she enjoys traveling, trying new restaurants, swimming, reading, and being a cat mom.",
       "photo": "/assets/team/AWojnar+Headshot.webp",
       "photoFocus": "52% 44%",
+      "order": 32
+    },
+    {
+      "name": "Paul Vasholz",
+      "credentials": "Technical & Public Policy Advisor",
+      "role": "Program Support",
+      "roles": [
+        "Program Support"
+      ],
+      "trainings": [],
+      "availability": "",
+      "counties": [],
+      "bio": "",
+      "photo": "/assets/team/PXL_20230513_232948804.jpg",
+      "photoFocus": "78% 49%",
       "order": 33
     },
     {
