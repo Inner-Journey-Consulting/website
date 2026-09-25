@@ -15,6 +15,7 @@ const COUNTIES = ["Waukesha", "Ozaukee", "Dodge", "Jefferson", "Brown", "Walwort
 
 const ROLES = [
   "Psychotherapist",
+  "Clinical Intern",
   "Youth/Peer Support",
   "Family Engagement/Psycho-Education",
   "Program Support"

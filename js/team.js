@@ -19,7 +19,8 @@
     const buttons = ['<button class="chip-btn active" data-value="all">All</button>']
       .concat(values.map(v => `<button class="chip-btn" data-value="${v}">${v}</button>`))
       .join("");
-    return `<div class="frow" data-facet="${facet}"><span class="flabel">${label}</span>${buttons}</div>`;
+    return `<div class="frow" data-facet="${facet}"><span class="flabel">${label}</span>` +
+           `<div class="fchips">${buttons}</div></div>`;
   }
   filtersEl.innerHTML =
     buildRow("county", "CCS County", COUNTIES) +

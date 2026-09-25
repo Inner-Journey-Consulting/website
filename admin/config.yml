@@ -50,6 +50,7 @@ collections:
                 min: 1
                 options:
                   - Psychotherapist
+                  - Clinical Intern
                   - Youth/Peer Support
                   - Family Engagement/Psycho-Education
                   - Program Support

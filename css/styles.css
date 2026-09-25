@@ -145,6 +145,11 @@ h1,h2,h3,.h1,.h2,.h3{font-family:var(--display);font-weight:500;color:var(--pine
 .filter-panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
   padding:18px 22px;}
 .frow{display:flex;flex-wrap:wrap;align-items:center;gap:9px;}
+/* Chips live in their own flex column so that when a row has more chips than
+   fit, the wrapped ones line up with the first chip rather than sliding back
+   under the label. .frow keeps flex-wrap for the mobile layout below, where
+   the label takes a full-width line of its own. */
+.fchips{display:flex;flex-wrap:wrap;align-items:center;gap:9px;flex:1 1 0;min-width:0;}
 .frow + .frow{margin-top:14px;padding-top:14px;border-top:1px solid var(--line);}
 .frow .flabel{flex:0 0 120px;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;
   color:var(--muted);font-weight:600;}
