@@ -524,7 +524,9 @@
       ],
       "trainings": [],
       "availability": "",
-      "counties": [],
+      "counties": [
+        "Waukesha"
+      ],
       "bio": "Hi! I’m Hailey and I am a clinical intern for Inner Journey Counseling and also completing my Master of Social Work at the University of Wisconsin-Milwaukee. While completing my bachelor's degree, I worked at Pathfinders Youth Shelter. In my spare time, I like going to the gym, dancing, reading, true crime TV shoes, shopping, coffee shops, volleyball, and trying new things when I can! I can’t wait to meet you!",
       "photo": "/assets/team/HScheidt.png",
       "photoFocus": "50% 30%",
