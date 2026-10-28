@@ -628,7 +628,8 @@
       "credentials": "MDiv, MFT-IT",
       "role": "Psychotherapist",
       "roles": [
-        "Family Engagement/Psycho-Education"
+        "Family Engagement/Psycho-Education",
+        "Psychotherapist"
       ],
       "trainings": [],
       "availability": "Accepting",
