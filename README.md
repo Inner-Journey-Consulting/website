@@ -23,6 +23,7 @@ for the one-time hosting + CMS wiring.
     ccs-county.html     One county's roster; chosen via ?county=NAME
     contact.html        Contact form + details
     admin/              Sveltia CMS (index.html loads it; config.yml is the schema)
+    training/           Staff cybersecurity training, served at /training/ (see training/README.md)
     content/staff.json  *** The staff records — edited by the CMS, read by the site ***
     css/styles.css      All custom styling (palette tokens live at the top)
     js/staff.js         Category lists (COUNTIES/ROLES/TRAININGS) + staff loader

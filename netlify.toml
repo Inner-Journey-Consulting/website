@@ -30,6 +30,13 @@
   [headers.values]
     X-Robots-Tag = "noindex"
 
+# The staff training is linked directly, not from the site, so keep it out of
+# search results too. (The page also carries a noindex meta tag.)
+[[headers]]
+  for = "/training/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
 # Sensible baseline security headers for the public site.
 [[headers]]
   for = "/*"
