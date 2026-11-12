@@ -13,7 +13,7 @@ window.COURSE_CONFIG = {
   // Workspace, restricted to the organization, with verified email collection
   // and Quiz mode on. Leave blank until it exists — the completion page will
   // say so instead of linking nowhere.
-  completionFormUrl: "",
+  completionFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSeyipg7poQXuJmWtJiMjxyy-JjgUA4M_CSkl-ejSOqvk2f_hw/viewform",
 
   // Minimum end-of-module score, as a percentage, for a module to count as
   // complete. "Successfully completed" is what the county certification says.
