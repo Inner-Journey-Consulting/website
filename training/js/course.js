@@ -308,10 +308,28 @@
     };
   }
 
+  // The completion form's link, with this learner's scores filled in for any
+  // fields mapped in config.completionFormFields. Percentages, not "3/3":
+  // Google Sheets reads "3/3" as the date March 3rd.
+  function completionLink() {
+    const base = CFG.completionFormUrl;
+    const fields = CFG.completionFormFields || {};
+    const params = new URLSearchParams();
+    for (const [key, entry] of Object.entries(fields)) {
+      if (!/^entry\.\d+$/.test(entry)) continue;          // ignore placeholders or typos
+      if (key === "version") { params.set(entry, CFG.version); continue; }
+      const [id, kind] = key.split(".");
+      const r = (state.modules[id] || {})[kind];
+      if (r && (kind === "pre" || kind === "post")) params.set(entry, String(pct(r)));
+    }
+    if (![...params.keys()].length) return base;
+    return `${base}${base.includes("?") ? "&" : "?"}usp=pp_url&${params.toString()}`;
+  }
+
   function viewComplete() {
     const remaining = MODULES.filter(m => status(m) !== "complete");
     const done = remaining.length === 0;
-    const form = CFG.completionFormUrl;
+    const form = CFG.completionFormUrl ? completionLink() : "";
     return {
       title: "Finish",
       html: `
