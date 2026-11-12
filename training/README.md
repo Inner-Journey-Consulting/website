@@ -77,6 +77,7 @@ will watch with the sound off.
 | `version` | Saved progress is stored per version. **Change it each year** and everyone starts fresh. |
 | `passPercent` | Score needed on the end-of-module check to complete a module. `0` accepts any score. |
 | `completionFormUrl` | Link to the official completion form (below). Blank shows a notice instead. |
+| `completionFormFields` | Form fields to pre-fill with each module's before/after score (as a percentage) and the course version. See below. |
 | `securityContact` | Who to report incidents to. Shown in Module 4 and the footer. |
 | `moduleOrder` | Which modules appear, in what order. |
 
@@ -92,6 +93,21 @@ serve as the record you certify to the county. The record is a **Google Form**:
    submitted it, so nobody can submit under someone else's name.
 3. Turn on **Quiz mode** if the form includes a final graded check.
 4. Put its link in `completionFormUrl`.
+
+### Sending scores to the form
+
+The course can fill in each learner's before and after scores when it opens the
+form. Add one **Short answer** question per score you want, such as "Phishing:
+before (%)", in a section headed "Your scores (filled in automatically)", and
+leave them **not required** so a blank shows someone who opened the form
+directly. Then, in the form editor, choose **More (⋮) > Get pre-filled link**,
+type any value in each score field, press **Get link**, and copy it. Each field
+appears in that link as `entry.NNNN=...`; put those IDs in
+`completionFormFields`.
+
+Scores are sent as whole-number percentages. Fractions like "3/3" would be read
+by Google Sheets as a date. Pre-filled answers can still be edited before
+submitting, so treat them as a convenience rather than proof.
 
 The responses sheet (name, date, score) is the per-person record behind the
 signed Statement of Assurance. Keep it for six years.
