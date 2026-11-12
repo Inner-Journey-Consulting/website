@@ -27,9 +27,14 @@ window.COURSE_CONFIG = {
   // convenience, not tamper-proof. The record's authority comes from the
   // verified email and the attestation.
   completionFormFields: {
-    // "phishing.pre": "entry.1234567890",
-    // "phishing.post": "entry.1234567891",
-    // "version": "entry.1234567899"
+    "phishing.pre":   "entry.825778880",
+    "phishing.post":  "entry.1840946672",
+    "passwords.pre":  "entry.1885067235",
+    "passwords.post": "entry.312807455",
+    "data.pre":       "entry.1528542073",
+    "data.post":      "entry.1727010128",
+    "reporting.pre":  "entry.1863488691",
+    "reporting.post": "entry.1695759295"
   },
 
   // Minimum end-of-module score, as a percentage, for a module to count as
