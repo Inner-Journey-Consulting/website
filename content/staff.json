@@ -708,6 +708,23 @@
       "photo": "/assets/team/0-2.webp",
       "photoFocus": "48% 40%",
       "order": 38
+    },
+    {
+      "name": "Mohamud Ahmed",
+      "credentials": "Rehab",
+      "role": "Youth/Peer Support Specialist",
+      "roles": [
+        "Youth/Peer Support"
+      ],
+      "trainings": [],
+      "availability": "Accepting",
+      "counties": [
+        "Brown"
+      ],
+      "bio": "I am a compassionate and dedicated Youth Support and/or Family Engagement Specialist at Inner Journey Consulting, with experience in behavioral health, caregiving, crisis intervention, and patient support. My professional background has strengthened my skills in communication, crisis de-escalation, patient advocacy, and building meaningful relationships with individuals from diverse backgrounds.\n\nBorn in Kenya and raised in Green Bay, Wisconsin, I grew up in a large family with a hard working single mother. My upbringing taught me resilience, perseverance, and the importance of having positive guidance and support. These experiences inspire my passion for helping youth and families develop essential life skills, build confidence, and overcome challenges.\n\nAs part of the Inner Journey Consulting team, I am committed to meeting individuals where they are, recognizing their strengths, and fostering trust through compassionate, person-centered support. My goal is to empower youth and families to achieve greater independence, stability, and personal growth.\n\nOutside of work, I enjoy sports, basketball, playing electric guitar, and bringing humor and positive energy wherever I go. Go Pack Go!",
+      "photo": "/assets/team/Mohamud Ahmed-Headshot.jpeg",
+      "photoFocus": "50% 30%",
+      "order": 3
     }
   ]
 }
