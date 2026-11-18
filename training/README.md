@@ -117,6 +117,8 @@ Inner Journey Google account needs another way to record completion.
 
 ## Status
 
-The four modules are **drafts**: lesson pages are outlines, video slots are
-placeholders, and each module has three sample questions to be reviewed and
-expanded.
+The four modules have complete lesson text and three questions each, covering
+the four minimum topics in the county Statement of Assurance. The incident
+contact is Carl Vitense (`securityContact`). Videos are optional: a page can
+take a `media` item, such as a CISA *Secure Our World* video embedded from
+CISA's YouTube channel.

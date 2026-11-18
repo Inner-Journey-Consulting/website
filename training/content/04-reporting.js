@@ -1,4 +1,5 @@
-/* Module 4 — DRAFT. The contact named here comes from securityContact in js/config.js. */
+/* Module 4 — Reporting Incidents Immediately.
+   The contact named here comes from securityContact in js/config.js. */
 (function () {
   const who = window.COURSE_CONFIG.securityContact;
   (window.COURSE_MODULES = window.COURSE_MODULES || []).push({
@@ -9,27 +10,42 @@
     objectives: [
       "Recognize what counts as a security incident",
       "Report right away, even when you're not sure",
-      "Know exactly who to tell and how"
+      "Know exactly who to tell and what to tell them"
     ],
     pages: [
       {
         title: "What counts as an incident",
-        body: `<p class="draft">Draft outline</p>
-          <ul><li>Clicked a suspicious link or entered a password somewhere odd</li>
-          <li>A lost or stolen phone or laptop</li>
-          <li>Client information sent to the wrong person</li>
-          <li>Anything that just seems off</li></ul>`
+        body: `
+          <p>An incident is anything that might put client information or our accounts at
+          risk. For example:</p>
+          <ul>
+            <li>You clicked a suspicious link, or entered your password somewhere that didn't
+              look right</li>
+            <li>A phone, laptop, or paper records were lost or stolen</li>
+            <li>Client information went to the wrong person</li>
+            <li>A sign-in prompt you didn't start, or account activity you don't recognize</li>
+            <li>Anything that just seems off</li>
+          </ul>`
       },
       {
         title: "Report even if you're not sure",
-        body: `<p class="draft">Draft outline</p>
-          <ul><li>Speed matters more than certainty</li>
-          <li>Reporting a mistake is never the problem. Not reporting it is</li></ul>`
+        body: `
+          <p><strong>Speed matters more than certainty.</strong> The first hours after a problem
+          are when it's easiest to stop. A false alarm costs a few minutes; a real problem left
+          unreported can cost far more.</p>
+          <p>Mistakes happen to everyone. Reporting one is never the problem. Not reporting it
+          is.</p>`
       },
       {
-        title: "Who to tell, and how",
-        body: `<p class="draft">Draft outline</p>
-          <p>Contact <strong>${who}</strong>. <em>To add: how to reach them, and what to tell them.</em></p>
+        title: "Who to tell, and what to tell them",
+        body: `
+          <p><strong>Tell ${who} right away</strong>, by phone or by email from your Inner Journey
+          account. If you can't reach them right away, keep trying, and don't wait until the
+          next workday.</p>
+          <p>Say what happened, when, and which account, device, or client information may be
+          involved. Don't try to investigate or fix it yourself, and don't delete anything
+          related to it.</p>
+          <p>If a password may be exposed, change it right away, then report.</p>
           <p>What happens next is the practice's job, not yours.</p>`
       }
     ],

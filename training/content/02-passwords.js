@@ -1,4 +1,4 @@
-/* Module 2 — DRAFT. */
+/* Module 2 — Passwords and Multi-Factor Authentication */
 (window.COURSE_MODULES = window.COURSE_MODULES || []).push({
   id: "passwords",
   short: "Passwords & MFA",
@@ -7,32 +7,55 @@
   objectives: [
     "Create strong passphrases and avoid reusing passwords",
     "Explain why every person needs their own login",
-    "Set up two-step verification, and refuse sign-in prompts you didn't start"
+    "Turn on 2-Step Verification, and refuse sign-in prompts you didn't start"
   ],
   pages: [
     {
       title: "Strong passphrases, never reused",
-      body: `<p class="draft">Draft outline</p>
-        <ul><li>Length beats complexity: several random words</li>
-        <li>One password per account; a password manager makes that practical</li></ul>`
+      body: `
+        <p><strong>Length matters more than complexity.</strong> A phrase of four or more
+        random words, like <em>lantern-river-blue-thirty</em>, is far harder to crack than a
+        short password full of symbols, and easier to remember.</p>
+        <p>Avoid anything personal or predictable: names, birthdays, pets, seasons, or
+        "Password1!". Those are the first things attackers try.</p>
+        <p><strong>Use a different password for every account.</strong> When one website is
+        breached, attackers try the same password everywhere else. A password manager, such as
+        the one built into your phone or browser, remembers them for you.</p>`
     },
     {
       title: "Never share a login",
-      body: `<p class="draft">Draft outline</p>
-        <ul><li>HIPAA requires each person to have their own login</li>
-        <li>Shared logins make it impossible to tell who did what, or to remove one person's access</li></ul>`
+      body: `
+        <p>Everything done under your login is recorded as you. That's why HIPAA requires each
+        person to have their own login, and why we never share them, even briefly or with
+        someone we trust.</p>
+        <p>If a coworker is locked out, the answer is to get their own access restored, not to
+        lend them yours.</p>`
     },
     {
-      title: "What two-step verification does",
-      media: { type: "todo", kind: "Video", note: "Turning on 2-Step Verification for an Inner Journey Google account, with an authenticator app." },
-      body: `<p class="draft">Draft outline</p>
-        <ul><li>A second proof of identity, so a stolen password alone isn't enough</li></ul>`
+      title: "Turn on 2-Step Verification",
+      media: { type: "embed", src: "https://www.youtube-nocookie.com/embed/QNBxLIUXcaQ",
+        title: "Turn on multi-factor authentication (CISA)", caption: "From CISA's Secure Our World campaign." },
+      body: `
+        <p>2-Step Verification, also called multi-factor authentication or MFA, asks for a
+        second proof that it's really you, usually a prompt on your phone. A stolen password
+        on its own is then no longer enough to get into your account.</p>
+        <p><strong>To turn it on for your Inner Journey Google account:</strong></p>
+        <ol>
+          <li>Go to <strong>myaccount.google.com</strong>, signed in with your Inner Journey
+            account.</li>
+          <li>Choose <strong>Security</strong>, then <strong>2-Step Verification</strong>.</li>
+          <li>Follow the steps. Using the Google prompt on your phone or an authenticator app is
+            safer than text-message codes.</li>
+        </ol>`
     },
     {
       title: "Prompts you didn't start",
-      body: `<p class="draft">Draft outline</p>
-        <ul><li>Attackers with your password send prompt after prompt, hoping you'll tap Approve</li>
-        <li>Never approve a sign-in you didn't start. Deny it and report it</li></ul>`
+      body: `
+        <p>If someone has your password, they can trigger sign-in prompts on your phone and
+        hope you tap <em>Approve</em>, sometimes again and again until you give in.</p>
+        <p><strong>Never approve a sign-in you didn't start yourself.</strong> Deny it, change
+        your password, and report it to ${window.COURSE_CONFIG.securityContact}. An unexpected
+        prompt means your password is probably already known.</p>`
     }
   ],
   quiz: [
