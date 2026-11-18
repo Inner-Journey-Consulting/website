@@ -15,6 +15,7 @@ so learners can see what changed.
     js/course.js          The engine: routing, quizzes, results, saved progress.
     content/01-*.js ...   One file per module: objectives, lesson pages, questions.
     css/course.css        Styling (Inner Journey palette).
+    certificate/          Apps Script that emails completion certificates (see below).
     media/                Videos, captions, images.
 
 Each module runs:
@@ -114,6 +115,48 @@ signed Statement of Assurance. Keep it for six years.
 
 Anyone with access to client or financial information who **doesn't** have an
 Inner Journey Google account needs another way to record completion.
+
+## Completion certificates
+
+`certificate/Certificate.gs` is an Apps Script that runs inside the completion
+form's **responses sheet**. Each time someone submits the form, it builds a PDF
+certificate from their response (verified email, name, role, timestamp and
+module scores) and emails it to them. It never runs on the website.
+
+Because certificates are made from the sheet, the form stays the official
+record, and any certificate can be reissued at any time from its row. Each one
+carries an ID built from the submission timestamp, such as `IJC-20261118-140322`,
+so an auditor's copy can be matched to its row.
+
+### Setting it up (once)
+
+1. Open the responses sheet, signed in with the **Inner Journey account that
+   should send the emails**. Certificates come from whoever does this setup.
+2. **Extensions > Apps Script.**
+3. Delete what's in `Code.gs` and paste in the whole of
+   [`Certificate.gs`](https://raw.githubusercontent.com/Inner-Journey-Consulting/website/main/training/certificate/Certificate.gs).
+   Press **Save**.
+4. In the function menu at the top, choose **setUp**, then **Run**.
+5. Google asks for permission. Because this is your own script rather than a
+   published app, it warns that the app isn't verified: choose **Advanced**, then
+   **Go to (the project name)**, then **Allow**. It asks to see and edit this one
+   spreadsheet, send email as you, and run when you're not present.
+6. Test it: submit the completion form, and the certificate should arrive within
+   a minute or two.
+
+It finds columns by their headers, so renaming a question is fine as long as the
+score headers keep the module word and "before" or "after", for example
+"Phishing: before (%)".
+
+### Afterwards
+
+- Reload the sheet to see a **Certificates** menu: **Resend certificate for
+  selected row**, or **Email me a copy for selected row**, useful for an auditor.
+- Submissions from **before** the setup don't get a certificate automatically.
+  Select each row and use **Resend**.
+- A **Certificate sent** column records when each one went out.
+- The trigger belongs to the account that ran `setUp`. If that account is ever
+  removed, certificates stop: run `setUp` again from another admin account.
 
 ## Status
 
