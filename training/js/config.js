@@ -42,8 +42,10 @@ window.COURSE_CONFIG = {
   // Set to 0 to accept any score.
   passPercent: 80,
 
-  // Who staff report incidents to. Shown in Module 4 and the footer.
-  securityContact: "the Security Officer",
+  // Who staff report incidents to. Shown in Module 4 and the footer. This is
+  // also Inner Journey's HIPAA security official, the one person the Security
+  // Rule requires an organization to name.
+  securityContact: "Carl Vitense",
 
   // Module order. Each id must match a file in content/.
   moduleOrder: ["phishing", "passwords", "data", "reporting"]

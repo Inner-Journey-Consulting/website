@@ -1,4 +1,4 @@
-/* Module 3 — DRAFT. The email page depends on how Inner Journey's Workspace is set up. */
+/* Module 3 — Safe Handling of Client Information */
 (window.COURSE_MODULES = window.COURSE_MODULES || []).push({
   id: "data",
   short: "Safe handling",
@@ -12,32 +12,66 @@
   pages: [
     {
       title: "What counts as client information",
-      body: `<p class="draft">Draft outline</p>
-        <ul><li>Names, dates, notes, diagnoses, and anything that could identify a client</li>
-        <li>"Minimum necessary": share only what the task needs</li></ul>`
+      body: `
+        <p>Client information is anything that could identify a client together with their
+        care: names, dates of birth, addresses, phone numbers, notes, diagnoses, and invoices
+        or supervision logs that name a client. Even the fact that someone is a client is
+        private.</p>
+        <p>Share only the <strong>minimum necessary</strong>: what a particular task actually
+        needs, and only with people who need it for their work.</p>`
     },
     {
       title: "Your devices, out in the field",
-      media: { type: "todo", kind: "Video", note: "Setting a passcode and auto-lock on a phone." },
-      body: `<p class="draft">Draft outline</p>
-        <ul><li>Lock screens on your phone and laptop</li>
-        <li>Devices in the car, and computers shared with family</li>
-        <li>Public Wi-Fi</li></ul>`
+      body: `
+        <p>Most of us use our own phones and computers for Inner Journey work, so keeping those
+        devices secure protects our clients too.</p>
+        <ul>
+          <li><strong>Lock your phone</strong> with a passcode, and set it to lock itself after
+            a minute or two. On modern phones, a passcode also turns on the phone's built-in
+            encryption.</li>
+          <li><strong>Lock your computer</strong> with a password, and turn on its built-in disk
+            encryption: <em>FileVault</em> on a Mac, or <em>Device Encryption</em> or
+            <em>BitLocker</em> on Windows.</li>
+          <li><strong>Don't share a work login on a family computer.</strong> If others use the
+            computer, give them their own user account.</li>
+          <li><strong>In the car,</strong> take your laptop with you, or put it out of sight
+            before you arrive, so no one watches you hide it.</li>
+          <li><strong>On public Wi-Fi,</strong> avoid opening client information. Your phone's
+            hotspot is safer.</li>
+        </ul>`
     },
     {
       title: "Email and texting",
-      body: `<p class="draft">Draft outline: depends on the Workspace setup</p>
-        <ul><li>Use your Inner Journey account, never personal email</li>
-        <li>No client information in ordinary text messages</li></ul>`
+      body: `
+        <ul>
+          <li><strong>Use your Inner Journey account for all client information.</strong>
+            Email between Inner Journey accounts stays within our Google Workspace, which is
+            covered by a HIPAA agreement with Google.</li>
+          <li><strong>Never use personal email</strong> for anything about a client, even to
+            forward something to yourself.</li>
+          <li><strong>No client information in ordinary text messages</strong> or in photos sent
+            by text.</li>
+          <li><strong>Sending to a county or anyone outside Inner Journey</strong> needs that
+            organization's secure process. Ozaukee County, for example, sends you an encrypted
+            message to reply inside. If you're not sure how a recipient wants to receive client
+            information, ask ${window.COURSE_CONFIG.securityContact} before you send it.</li>
+        </ul>`
     },
     {
       title: "Paper",
-      body: `<p class="draft">Draft outline</p><ul><li>Printing, carrying, and shredding</li></ul>`
+      body: `
+        <p>Print client information only when you need to. Keep paper with you or locked away,
+        never left in a car or on a desk where others can see it, and shred it when you're
+        done. Don't put it in the regular trash or recycling.</p>`
     },
     {
       title: "AI tools",
-      body: `<p class="draft">Draft outline</p>
-        <ul><li>Don't paste client information into ChatGPT or other AI tools Inner Journey hasn't approved</li></ul>`
+      body: `
+        <p>Don't paste client information into ChatGPT or any other AI tool Inner Journey hasn't
+        approved, even just to tidy up a note's wording.</p>
+        <p>Anything you paste leaves our control, and deleting the conversation afterward
+        doesn't undo that. Removing a name isn't enough either: the details in a note can still
+        identify someone.</p>`
     }
   ],
   quiz: [
