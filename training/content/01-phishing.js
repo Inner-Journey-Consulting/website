@@ -12,6 +12,8 @@
   pages: [
     {
       title: "What a phishing message looks like",
+      media: { type: "embed", src: "https://www.youtube-nocookie.com/embed/JlQovysQBn0",
+        title: "Recognize and report phishing (CISA)", caption: "From CISA's Secure Our World campaign." },
       body: `
         <p>Phishing is a message that pretends to be from someone you trust so that you'll
         hand over information, sign in on a fake page, or open something harmful. Most

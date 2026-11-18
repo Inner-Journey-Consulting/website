@@ -33,6 +33,8 @@
     },
     {
       title: "Turn on 2-Step Verification",
+      media: { type: "embed", src: "https://www.youtube-nocookie.com/embed/QNBxLIUXcaQ",
+        title: "Turn on multi-factor authentication (CISA)", caption: "From CISA's Secure Our World campaign." },
       body: `
         <p>2-Step Verification, also called multi-factor authentication or MFA, asks for a
         second proof that it's really you, usually a prompt on your phone. A stolen password
