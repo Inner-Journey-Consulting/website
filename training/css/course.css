@@ -89,6 +89,15 @@ h1:focus{outline:none;}
 .explain{font-size:.95rem;color:var(--pine-soft);background:var(--sage-tint);border-radius:8px;padding:8px 12px;margin:6px 0 0;}
 .score-table{max-width:420px;}
 
+/* Training portal (training/index.html) */
+.course-list{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:16px;}
+.course-card{display:block;border:1px solid var(--line);border-radius:12px;padding:18px 22px;
+  text-decoration:none;color:var(--ink);background:#fff;transition:border-color .15s,box-shadow .15s;}
+.course-card:hover,.course-card:focus{border-color:var(--amber);box-shadow:0 2px 10px rgba(36,31,24,.08);color:var(--ink);}
+.course-name{display:block;font-family:var(--display);font-size:1.35rem;color:var(--pine-2);margin-bottom:4px;}
+.course-desc{display:block;color:var(--ink);line-height:1.5;}
+.course-meta{display:block;margin-top:8px;font-size:.85rem;font-weight:600;color:var(--amber);}
+
 @media (max-width:575.98px){#course{width:auto;margin-left:12px;margin-right:12px;}}
 
 .site-foot{text-align:center;font-size:.85rem;color:var(--muted);padding-bottom:28px;}

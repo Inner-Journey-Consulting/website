@@ -5,7 +5,6 @@
   const CFG = window.COURSE_CONFIG;
   const c = CFG.county;
   const ijc = CFG.securityContact;
-  const officer = `${c.officerName ? c.officerName + ", " : ""}Compliance Officer`;
 
   (window.COURSE_MODULES = window.COURSE_MODULES || []).push({
     id: "program",
@@ -133,9 +132,9 @@
           <h2 class="h5">How to report</h2>
           <ul>
             <li><strong>At Inner Journey:</strong> tell ${ijc}.</li>
-            <li><strong>Directly to the county:</strong> the ${officer}, at ${c.officerPhone}${
-              c.officerEmail ? ` or <a href="mailto:${c.officerEmail}">${c.officerEmail}</a>` : ""}.</li>
-            <li><strong>Anonymously:</strong> by mail to the Compliance Officer,
+            <li><strong>Directly to the county:</strong> contact the Jefferson County Compliance
+              Office at ${c.officerPhone}.</li>
+            <li><strong>Anonymously:</strong> by mail to the Compliance Office,
               ${c.address.join(", ")}.</li>
           </ul>
           <h2 class="h5">No retaliation</h2>
@@ -186,12 +185,12 @@
         q: "You have a compliance concern, or believe fraudulent activity is happening. What should you do?",
         options: [
           "Don't report it, and see if it stops",
-          `Report it: to ${ijc}, or directly to the county Compliance Officer, anonymously if you prefer`,
+          `Report it: to ${ijc}, or directly to the county's Compliance Office, anonymously if you prefer`,
           "Report it only once you're certain fraud is happening",
           "Talk to the person involved and give them a chance to fix it"
         ],
         answer: 1,
-        explain: "Employees and contractors are expected to report concerns. You don't need to be certain, and you can report anonymously by mail to the county Compliance Officer."
+        explain: "Employees and contractors are expected to report concerns. You don't need to be certain, and you can report anonymously by mail to the county's Compliance Office."
       },
       {
         q: "The purpose of the county's Code of Conduct is to:",

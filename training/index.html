@@ -4,14 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
-  <title>Cybersecurity Awareness Training</title>
+  <title>Staff Training — Inner Journey Consulting</title>
   <script>
-    // Served from a folder (innerjourneymke.com/training/), so its relative paths
-    // (css/, js/, content/) only resolve correctly with the trailing slash.
-    // Without it, the browser looks for them at the site root and gets the
-    // website's files instead. Add the slash before anything else loads.
-    if (/\/training$/.test(location.pathname))
-      location.replace(location.pathname + "/" + location.search + location.hash);
+    // Links from before the courses moved (innerjourneymke.com/training/#/m/...)
+    // belonged to the cybersecurity course, which is now at /training/cyber/.
+    // Send them on, keeping their place in the course.
+    if (/^#\/./.test(location.hash)) location.replace("cyber/" + location.hash);
+    // Relative paths (css/) only resolve with the trailing slash.
+    else if (/\/training$/.test(location.pathname))
+      location.replace(location.pathname + "/" + location.search);
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,35 +24,44 @@
   <a class="skip-link" href="#course">Skip to content</a>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-woods" aria-label="Course">
+    <nav class="navbar navbar-woods" aria-label="Site">
       <div class="container">
-        <a class="navbar-brand" href="#/" id="brand-title">Cybersecurity Awareness Training</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#courseNav"
-                aria-controls="courseNav" aria-expanded="false" aria-label="Show modules">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="courseNav">
-          <ul class="navbar-nav ms-auto" id="module-nav"></ul>
-        </div>
+        <span class="navbar-brand">Inner Journey Consulting</span>
       </div>
     </nav>
   </header>
 
   <main class="container" id="course" tabindex="-1">
-    <noscript><p>This course needs JavaScript turned on.</p></noscript>
+    <h1>Staff training</h1>
+    <p class="lead">Required training for Inner Journey Consulting staff. Each course saves your
+      progress in this browser, so you can stop and come back on the same device.</p>
+
+    <!-- One entry per course. To add a course, copy an <li> and change it. -->
+    <ul class="course-list">
+      <li>
+        <a class="course-card" href="cyber/">
+          <span class="course-name">Cybersecurity Awareness Training</span>
+          <span class="course-desc">Phishing, passwords and multi-factor authentication, handling
+            client information safely, and reporting incidents. Required every year for everyone
+            who works with client or financial information.</span>
+          <span class="course-meta">About 45 minutes &middot; 4 modules</span>
+        </a>
+      </li>
+      <li>
+        <a class="course-card" href="billing/">
+          <span class="course-name">Billing Compliance Training</span>
+          <span class="course-desc">Jefferson County's Medicaid, Medicare &amp; Third-Party Biller
+            Compliance Training. Required within 30 days of starting and every year after for
+            everyone who provides or bills for mental health services under the county's
+            contract.</span>
+          <span class="course-meta">About 25 minutes &middot; 4 modules and certification</span>
+        </a>
+      </li>
+    </ul>
   </main>
 
   <footer class="site-foot">
-    <div class="container">Questions or something to report? Contact <span id="footer-contact"></span>.</div>
+    <div class="container">Questions? Contact Carl Vitense.</div>
   </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Settings, then one file per module, then the engine. -->
-  <script src="js/config.js"></script>
-  <script src="content/01-phishing.js"></script>
-  <script src="content/02-passwords.js"></script>
-  <script src="content/03-data.js"></script>
-  <script src="content/04-reporting.js"></script>
-  <script src="js/course.js"></script>
 </body>
 </html>

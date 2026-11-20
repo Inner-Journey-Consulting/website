@@ -7,13 +7,11 @@
    ========================================================================= */
 (function () {
   // The county's contacts, used throughout the course. Kept in one place
-  // because they change: the county's slides name Nicole Singsime as
-  // Compliance Officer, while its Code of Conduct (updated 3/12/2025) names
-  // Shauna Schulz, at the same phone number. Confirm with the county.
+  // because they change. No one is named: the county's slides and its Code of
+  // Conduct name different Compliance Officers, so the course refers to the
+  // Compliance Office and its phone number, which both agree on.
   const county = {
-    officerName: "Shauna Schulz",
     officerPhone: "(920) 674-7191",
-    officerEmail: "",              // not given in the current Code of Conduct
     address: ["1541 Annex Road", "Jefferson, WI 53549"],
     // Where the signed Acknowledgment form goes, as printed on the form itself.
     formRecipient: "Contract Administrator",
