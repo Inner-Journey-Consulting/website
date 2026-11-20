@@ -12,8 +12,8 @@
    show what changed. Progress is saved in this browser only (localStorage);
    the official record is the completion Google Form (see config.js).
 
-   More than one course can share this engine: each has its own folder with
-   an index.html, js/config.js and content/ (see billing/ for the second).
+   Every course shares this engine: each has its own folder (cyber/,
+   billing/) with an index.html, js/config.js and content/.
    ========================================================================= */
 (function () {
   "use strict";

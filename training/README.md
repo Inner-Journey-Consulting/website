@@ -1,7 +1,16 @@
-# Cybersecurity Awareness Training — Inner Journey Consulting
+# Staff Training — Inner Journey Consulting
 
-Annual cybersecurity and HIPAA security training, built to satisfy the county
-*Cybersecurity Awareness Training and HIPAA Security Statement of Assurance*.
+Inner Journey's online staff training, at **innerjourneymke.com/training/**.
+That page lists every course:
+
+| Course | Address |
+|---|---|
+| Cybersecurity Awareness Training | innerjourneymke.com/training/cyber/ |
+| Billing Compliance Training (Jefferson County) | innerjourneymke.com/training/billing/ |
+
+The cybersecurity course is built to satisfy the county *Cybersecurity Awareness
+Training and HIPAA Security Statement of Assurance*.
+
 Plain HTML, CSS and JavaScript with Bootstrap 5 from a CDN. No build step.
 
 Adapted from the HCI 520 e-learning course structure: short one-idea lesson
@@ -10,14 +19,20 @@ so learners can see what changed.
 
 ## How it's organised
 
-    index.html            The only page. Every screen is drawn from the data below.
-    js/config.js          Settings: course version, pass mark, completion form, contact.
-    js/course.js          The engine: routing, quizzes, results, saved progress.
-    content/01-*.js ...   One file per module: objectives, lesson pages, questions.
-    css/course.css        Styling (Inner Journey palette).
-    certificate/          Apps Script that emails completion certificates (see below).
-    billing/              A second course: the county's billing compliance training (see below).
-    media/                Videos, captions, images.
+    index.html            The training page: lists every course.
+    js/course.js          The engine, shared by every course: routing, quizzes, results, saved progress.
+    css/course.css        Styling, shared by every course (Inner Journey palette).
+    cyber/                Cybersecurity Awareness Training
+      index.html            The course page. Every screen is drawn from the data below.
+      js/config.js          Settings: course version, pass mark, completion form, contact.
+      content/01-*.js ...   One file per module: objectives, lesson pages, questions.
+      media/                Videos, captions, images.
+      certificate/          Apps Script that emails completion certificates (see below).
+    billing/              Billing Compliance Training (see below), laid out the same way.
+
+Links from before the cybersecurity course moved to `cyber/`
+(innerjourneymke.com/training/#/...) are sent on to it automatically, and
+saved progress carries over.
 
 Each module runs:
 
@@ -28,12 +43,13 @@ question's before and after answers, the correct answer, and an explanation.
 
 ## Previewing
 
-Open `index.html` in a browser, or run `python3 -m http.server` in this folder
-and visit http://localhost:8000.
+Run `python3 -m http.server` in this folder and visit http://localhost:8000/
+for the training page, or http://localhost:8000/cyber/ for a course.
 
 ## Editing content
 
-Everything a learner reads lives in `content/`. Each module file looks like:
+Everything a learner reads lives in each course's `content/` folder. Each
+module file looks like:
 
 ```js
 (window.COURSE_MODULES = window.COURSE_MODULES || []).push({
@@ -72,7 +88,7 @@ Each page can have one `media` item:
 Give every video captions or a transcript. It's good practice, and some staff
 will watch with the sound off.
 
-## Settings (js/config.js)
+## Settings (each course's js/config.js)
 
 | Setting | What it does |
 |---|---|
@@ -82,8 +98,10 @@ will watch with the sound off.
 | `completionFormFields` | Form fields to pre-fill with each module's before/after score (as a percentage) and the course version. See below. |
 | `securityContact` | Who to report incidents to. Shown in Module 4 and the footer. |
 | `moduleOrder` | Which modules appear, in what order. |
+| `storageKey` | Where saved progress is kept. Each course needs its own. |
+| `intro`, `finishStep`, `finishLabel`, `completionHtml` | Optional wording for the home and finish pages; see `billing/js/config.js`. |
 
-## The completion record
+## The completion record (cybersecurity course)
 
 Progress in the course is saved only in the learner's own browser, so it can't
 serve as the record you certify to the county. The record is a **Google Form**:
@@ -119,7 +137,7 @@ Inner Journey Google account needs another way to record completion.
 
 ## Completion certificates
 
-`certificate/Certificate.gs` is an Apps Script that runs inside the completion
+`cyber/certificate/Certificate.gs` is an Apps Script that runs inside the completion
 form's **responses sheet**. Each time someone submits the form, it builds a PDF
 certificate from their response (verified email, name, role, timestamp and
 module scores) and emails it to them. It never runs on the website.
@@ -135,7 +153,7 @@ so an auditor's copy can be matched to its row.
    should send the emails**. Certificates come from whoever does this setup.
 2. **Extensions > Apps Script.**
 3. Delete what's in `Code.gs` and paste in the whole of
-   [`Certificate.gs`](https://raw.githubusercontent.com/Inner-Journey-Consulting/website/main/training/certificate/Certificate.gs).
+   [`Certificate.gs`](https://raw.githubusercontent.com/Inner-Journey-Consulting/website/main/training/cyber/certificate/Certificate.gs).
    Press **Save**.
 4. In the function menu at the top, choose **setUp**, then **Run**.
 5. Google asks for permission. Because this is your own script rather than a
@@ -162,9 +180,8 @@ score headers keep the module word and "before" or "after", for example
 ## Billing compliance course
 
 `billing/` is Jefferson County's annual **Medicaid, Medicare & Third-Party Biller
-Compliance Training** in this course's format, at
-innerjourneymke.com/training/billing/. It shares the engine and styling
-(`js/course.js`, `css/course.css`); its own settings, modules and the county's
+Compliance Training** in the same format, at
+innerjourneymke.com/training/billing/. Its own settings, modules and the county's
 documents are in `billing/js/config.js`, `billing/content/` and `billing/docs/`.
 
 It's a **faithful adaptation**: the county's five modules, content and review
@@ -202,7 +219,17 @@ To confirm with the county (contacts are set in `billing/js/config.js`):
 form, downloaded from the county's website. Replace them if the county updates
 either one.
 
-## Status
+## Adding a course
+
+1. Copy the `billing/` folder and rename it, for example `onboarding/`.
+2. In its `js/config.js`, change the title and give it its own `storageKey`, so
+   its saved progress is kept separately.
+3. Replace the files in `content/`, and update the `<script>` lines in its
+   `index.html` and `moduleOrder` in `js/config.js` to match. In `index.html`,
+   also change `billing` in the trailing-slash line near the top.
+4. Add it to the list on the training page, `index.html` in this folder.
+
+## Status (cybersecurity course)
 
 The four modules have complete lesson text and three questions each, covering
 the four minimum topics in the county Statement of Assurance. The incident
