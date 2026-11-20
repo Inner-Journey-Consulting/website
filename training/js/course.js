@@ -11,6 +11,9 @@
    The pre- and post-test use the SAME questions, so the results page can
    show what changed. Progress is saved in this browser only (localStorage);
    the official record is the completion Google Form (see config.js).
+
+   More than one course can share this engine: each has its own folder with
+   an index.html, js/config.js and content/ (see billing/ for the second).
    ========================================================================= */
 (function () {
   "use strict";
@@ -22,7 +25,10 @@
 
   const root = document.getElementById("course");
   const navList = document.getElementById("module-nav");
-  const STORE_KEY = `ijc-security-training:${CFG.version}`;
+  // Each course saves under its own key. The default is the original
+  // cybersecurity course's key, so its saved progress carries over.
+  const STORE_KEY = `${CFG.storageKey || "ijc-security-training"}:${CFG.version}`;
+  const FINISH = CFG.finishLabel || "Finish";
 
   /* ---------------- saved progress ---------------- */
 
@@ -93,7 +99,7 @@
           ${mark}${i + 1}. ${esc(m.short)}<span class="visually-hidden"> (${STATUS_TEXT[st]})</span>
         </a></li>`;
     }).join("") +
-    `<li class="nav-item"><a class="nav-link${activeId === "complete" ? " active" : ""}" href="#/complete">Finish</a></li>`;
+    `<li class="nav-item"><a class="nav-link${activeId === "complete" ? " active" : ""}" href="#/complete">${esc(FINISH)}</a></li>`;
   }
 
   /* ---------------- shared pieces ---------------- */
@@ -145,8 +151,8 @@
       title: CFG.title,
       html: `
       <h1 tabindex="-1">${esc(CFG.title)}</h1>
-      <p class="lead">Required annual training for everyone at ${esc(CFG.org)} who works with client
-        or financial information. About ${minutes} minutes, in ${MODULES.length} short modules.</p>
+      <p class="lead">${CFG.intro || `Required annual training for everyone at ${esc(CFG.org)} who works with client
+        or financial information.`} About ${minutes} minutes, in ${MODULES.length} short modules.</p>
 
       <h2 class="h4 mt-4">How it works</h2>
       <ol class="how">
@@ -155,8 +161,8 @@
         <li>Work through the short lessons and demonstrations.</li>
         <li>Finish with the <strong>same questions again</strong>. You need ${CFG.passPercent}% to
             complete the module, and you can retake it.</li>
-        <li>When all ${MODULES.length} are done, submit the <strong>completion form</strong>. That's your
-            official record.</li>
+        <li>${CFG.finishStep || `When all ${MODULES.length} are done, submit the <strong>completion form</strong>. That's your
+            official record.`}</li>
       </ol>
       <p class="note">Your progress is saved in this browser on this device. To pick up where you
         left off, come back on the same device and browser.</p>
@@ -331,10 +337,14 @@
     const done = remaining.length === 0;
     const form = CFG.completionFormUrl ? completionLink() : "";
     return {
-      title: "Finish",
+      title: FINISH,
       html: `
       <h1 tabindex="-1">${done ? "You've finished the training" : "Almost there"}</h1>
-      ${done ? `
+      ${done ? (CFG.completionHtml ? `
+        ${CFG.completionHtml}
+        ${form ? `<p>Then let ${esc(CFG.org)} know you've finished: <a href="${esc(form)}" target="_blank"
+          rel="noopener">open the completion form</a>, signed in with your ${esc(CFG.org)} Google account.</p>` : ""}
+      ` : `
         <p class="lead">One last step: submit the completion form. That's the official record of your training.</p>
         ${form
           ? `<ol class="how">
@@ -346,8 +356,8 @@
              <p><a class="btn btn-lantern" href="${esc(form)}" target="_blank" rel="noopener">Open the completion form</a></p>`
           : `<div class="alert alert-warning">The completion form hasn't been set up yet.
              An administrator needs to add its link to <code>completionFormUrl</code> in <code>js/config.js</code>.</div>`}
-      ` : `
-        <p>Complete every module to unlock the completion form. Still to do:</p>
+      `) : `
+        <p>Complete every module to unlock the last step. Still to do:</p>
         <ul>${remaining.map(m => `<li><a href="${href(m, "intro")}">${esc(m.title)}</a>
               <span class="status status-${status(m)}">${STATUS_TEXT[status(m)]}</span></li>`).join("")}</ul>`}
       <h2 class="h5 mt-4">Your scores</h2>
