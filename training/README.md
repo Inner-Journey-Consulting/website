@@ -16,6 +16,7 @@ so learners can see what changed.
     content/01-*.js ...   One file per module: objectives, lesson pages, questions.
     css/course.css        Styling (Inner Journey palette).
     certificate/          Apps Script that emails completion certificates (see below).
+    billing/              A second course: the county's billing compliance training (see below).
     media/                Videos, captions, images.
 
 Each module runs:
@@ -157,6 +158,49 @@ score headers keep the module word and "before" or "after", for example
 - A **Certificate sent** column records when each one went out.
 - The trigger belongs to the account that ran `setUp`. If that account is ever
   removed, certificates stop: run `setUp` again from another admin account.
+
+## Billing compliance course
+
+`billing/` is Jefferson County's annual **Medicaid, Medicare & Third-Party Biller
+Compliance Training** in this course's format, at
+innerjourneymke.com/training/billing/. It shares the engine and styling
+(`js/course.js`, `css/course.css`); its own settings, modules and the county's
+documents are in `billing/js/config.js`, `billing/content/` and `billing/docs/`.
+
+It's a **faithful adaptation**: the county's five modules, content and review
+questions, made easier to get through. The county's Acknowledgment and Agreement
+form is still the record: the last step sends people to print, sign and mail it.
+
+Changes from the county's slides:
+
+- Duplicate slides, navigation instructions and formatting problems removed.
+- Each module has a pre/post check like the cybersecurity course. The county
+  had review questions only in Modules 2 and 4; the others are new, written
+  from the county's own content.
+- The county's review questions didn't show their answers. The answers used
+  here are inferred from the slides and the Code of Conduct.
+- The question "For county employees, discipline falls outside the normal
+  disciplinary process?" doesn't apply to contractors and was left out. The
+  "what should you do" question was reworded because two of its options
+  were both partly right.
+- A page quoting the Code of Conduct's billing and records standards was added,
+  since the slides only linked to it.
+
+To confirm with the county (contacts are set in `billing/js/config.js`):
+
+- **Compliance Officer.** The slides name Nicole Singsime. The Code of Conduct,
+  updated 3/12/2025, names Shauna Schulz at the same phone number. The course
+  uses Shauna Schulz.
+- **Where the form goes.** The slides say the Compliance Officer. The form says
+  the Contract Administrator, "through email or mail", with an original
+  signature, but gives no email address. The course follows the form.
+- **Dated content.** The penalty amounts ($5,000-$10,000 per claim) and the
+  2009 and 2012 cases are copied as the county states them. Federal penalty
+  amounts have since been raised for inflation.
+
+`billing/docs/` holds copies of the county's Code of Conduct and Acknowledgment
+form, downloaded from the county's website. Replace them if the county updates
+either one.
 
 ## Status
 

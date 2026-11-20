@@ -66,6 +66,11 @@ h1:focus{outline:none;}
 .transcript{margin:-8px 0 20px;font-size:.92rem;}
 .transcript summary{cursor:pointer;color:var(--pine-soft);font-weight:600;}
 .page-body{font-size:1.05rem;line-height:1.6;}
+/* A question on a lesson page with its answer behind a click */
+.reveal{border:1px solid var(--line);border-radius:10px;padding:10px 16px;margin:12px 0;background:var(--surface);}
+.reveal summary{cursor:pointer;color:var(--pine-soft);font-weight:600;}
+.reveal[open] summary{margin-bottom:6px;}
+.scenario{background:var(--sage-tint);border-radius:10px;padding:12px 16px;margin:12px 0;}
 .draft{background:#fbf3e3;border-left:3px solid var(--amber);padding:2px 8px;font-size:.85rem;color:#6b400a;}
 
 /* Results: every state says so in words as well as colour */
