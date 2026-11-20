@@ -136,14 +136,14 @@
       explain: "Both federal and Wisconsin law protect employees from discharge, demotion, suspension, threats, harassment or discrimination for reporting or helping an investigation."
     },
     {
-      q: "In the Milwaukee Medicaid case, what was the business doing wrong?",
+      q: "A business bills Medicaid for more hours than its employees actually worked. What can happen?",
       options: [
-        "Billing for more hours than its employees actually worked",
-        "Charging clients directly",
-        "Missing a license"
+        "Repaying the overpayment settles it",
+        "Repayment, plus criminal charges and jail time",
+        "A warning the first time"
       ],
-      answer: 0,
-      explain: "It billed Medicaid for 5,617 more hours than were worked, causing $141,275 in overpayments. The owner went to jail and had to repay it all."
+      answer: 1,
+      explain: "In the Milwaukee case, a business billed Medicaid for 5,617 more hours than were worked. The owner was sentenced to 12 months in the House of Correction and still had to repay the $141,275."
     }
   ]
 });

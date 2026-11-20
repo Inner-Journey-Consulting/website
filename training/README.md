@@ -188,9 +188,9 @@ Changes from the county's slides:
 
 To confirm with the county (contacts are set in `billing/js/config.js`):
 
-- **Compliance Officer.** The slides name Nicole Singsime. The Code of Conduct,
-  updated 3/12/2025, names Shauna Schulz at the same phone number. The course
-  uses Shauna Schulz.
+- **Compliance Officer.** The slides name Nicole Singsime; the Code of Conduct,
+  updated 3/12/2025, names Shauna Schulz. Both give the same phone number, so the
+  course names no one and points to the Compliance Office at that number.
 - **Where the form goes.** The slides say the Compliance Officer. The form says
   the Contract Administrator, "through email or mail", with an original
   signature, but gives no email address. The course follows the form.
