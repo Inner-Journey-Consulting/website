@@ -12,13 +12,16 @@
   // Compliance Office and its phone number, which both agree on.
   const county = {
     officerPhone: "(920) 674-7191",
-    address: ["1541 Annex Road", "Jefferson, WI 53549"],
-    // Where the signed Acknowledgment form goes, as printed on the form itself.
-    formRecipient: "Contract Administrator",
-    formRecipientEmail: ""         // the form says "email or mail" but gives no address
+    address: ["1541 Annex Road", "Jefferson, WI 53549"]
   };
 
-  const mail = county.address.join("<br>");
+  // Where staff send their signed Acknowledgment form. Carl collects them and
+  // sends them on to the county (the form itself names the county's Contract
+  // Administrator, at the address above).
+  const formTo = {
+    name: "Carl Vitense",
+    address: ["Inner Journey Consulting", "1505 N. 60th Street", "Wauwatosa, WI 53208"]
+  };
 
   window.COURSE_CONFIG = {
     title: "Billing Compliance Training",
@@ -35,7 +38,7 @@
       for everyone who provides or bills for mental health services under the county's
       contract.`,
     finishStep: `When all four are done, go to <strong>Certification</strong>: sign the
-      county's Acknowledgment form and send it in, then submit Inner Journey's
+      county's Acknowledgment form and get it to Carl, then submit Inner Journey's
       <strong>completion form</strong>.`,
 
     finishLabel: "Certification",
@@ -52,9 +55,9 @@
         <li>Fill it in and sign it. Use <strong>Inner Journey Consulting</strong> as the
           agency name.</li>
         <li>Keep a copy for your records.</li>
-        <li>Send the form with your <strong>original signature</strong> to:<br>
-          ${county.formRecipient}<br>${mail}
-          ${county.formRecipientEmail ? `<br>or by email to <a href="mailto:${county.formRecipientEmail}">${county.formRecipientEmail}</a>` : ""}</li>
+        <li>Give or mail the form with your <strong>original signature</strong> to
+          ${formTo.name}, who sends everyone's forms to the county:<br>
+          ${formTo.name}<br>${formTo.address.join("<br>")}</li>
       </ol>
       <p>Questions about the training? Contact the Jefferson County Compliance Office at
         ${county.officerPhone}.</p>`,
