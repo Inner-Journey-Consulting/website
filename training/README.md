@@ -186,7 +186,11 @@ documents are in `billing/js/config.js`, `billing/content/` and `billing/docs/`.
 
 It's a **faithful adaptation**: the county's five modules, content and review
 questions, made easier to get through. The county's Acknowledgment and Agreement
-form is still the record: the last step sends people to print, sign and mail it.
+form is still the county's record: the last step sends people to print, sign and
+mail it. Then, as in the cybersecurity course, people submit Inner Journey's own
+completion form (a Google Form in the Inner Journey Workspace), which records
+their before and after scores and whether they've sent the county's form. It
+doesn't send certificates; the county's signed form serves that purpose.
 
 Changes from the county's slides:
 

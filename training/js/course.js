@@ -342,8 +342,15 @@
       <h1 tabindex="-1">${done ? "You've finished the training" : "Almost there"}</h1>
       ${done ? (CFG.completionHtml ? `
         ${CFG.completionHtml}
-        ${form ? `<p>Then let ${esc(CFG.org)} know you've finished: <a href="${esc(form)}" target="_blank"
-          rel="noopener">open the completion form</a>, signed in with your ${esc(CFG.org)} Google account.</p>` : ""}
+        ${form ? `
+          <h2 class="h5 mt-4">Then record your completion with ${esc(CFG.org)}</h2>
+          <ol class="how">
+            <li>Open the completion form below. It opens in a new tab.</li>
+            <li>If Google asks you to sign in, use your <strong>${esc(CFG.org)} Google account</strong>,
+                not a personal one.</li>
+            <li>Answer the questions and press Submit. Your scores are filled in for you.</li>
+          </ol>
+          <p><a class="btn btn-lantern" href="${esc(form)}" target="_blank" rel="noopener">Open the completion form</a></p>` : ""}
       ` : `
         <p class="lead">One last step: submit the completion form. That's the official record of your training.</p>
         ${form
