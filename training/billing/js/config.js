@@ -68,16 +68,16 @@
     // Score fields on that form, filled in from this browser's results as
     // percentages. See completionFormFields in ../cyber/js/config.js for how to
     // find the entry IDs. (The form was copied from the cybersecurity one, so
-    // the IDs happen to match its.)
+    // some IDs happen to match its.)
     completionFormFields: {
       "compliance.pre":    "entry.825778880",
       "compliance.post":   "entry.1840946672",
       "program.pre":       "entry.1885067235",
       "program.post":      "entry.312807455",
-      "false-claims.pre":  "entry.1528542073",
-      "false-claims.post": "entry.1727010128",
-      "integrity.pre":     "entry.1863488691",
-      "integrity.post":    "entry.1695759295"
+      "false-claims.pre":  "entry.1863488691",
+      "false-claims.post": "entry.1695759295",
+      "integrity.pre":     "entry.245729207",
+      "integrity.post":    "entry.1141366136"
     },
 
     passPercent: 80,
