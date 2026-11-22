@@ -35,16 +35,17 @@
       for everyone who provides or bills for mental health services under the county's
       contract.`,
     finishStep: `When all four are done, go to <strong>Certification</strong>: sign the
-      county's Acknowledgment form and send it in. That's the county's record that you
-      completed the training.`,
+      county's Acknowledgment form and send it in, then submit Inner Journey's
+      <strong>completion form</strong>.`,
 
     finishLabel: "Certification",
 
     // Module 5 in the county's training: the Acknowledgment and Agreement form.
     completionHtml: `
-      <p class="lead">Module 5: Certification. One last step: sign the county's
-        <strong>Acknowledgment and Agreement</strong> form. That's the county's record that you
-        completed this training.</p>
+      <p class="lead">Module 5: Certification. Two last steps: sign the county's
+        <strong>Acknowledgment and Agreement</strong> form, which is the county's record that
+        you completed this training, then record your completion with Inner Journey.</p>
+      <h2 class="h5 mt-4">First, sign the county's form</h2>
       <ol class="how">
         <li><a href="docs/acknowledgment-form.pdf" target="_blank" rel="noopener">Open the
           Acknowledgment form (PDF)</a> and print it.</li>
@@ -58,10 +59,26 @@
       <p>Questions about the training? Contact the Jefferson County Compliance Office at
         ${county.officerPhone}.</p>`,
 
-    // Optional: an Inner Journey Google Form to record completion too, as the
-    // cybersecurity course does. Blank means the county's form is the only record.
-    completionFormUrl: "",
-    completionFormFields: {},
+    // Inner Journey's own completion record: a Google Form in the Inner Journey
+    // Workspace, restricted to the organization, with verified email collection.
+    // It also asks whether the person has sent the county's form. Blank would
+    // leave the county's form as the only record.
+    completionFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSeUlNy8Fg0TMZlo4RJqOr-6diuxYCQsfw9EoG2xXb93hK-11A/viewform",
+
+    // Score fields on that form, filled in from this browser's results as
+    // percentages. See completionFormFields in ../cyber/js/config.js for how to
+    // find the entry IDs. (The form was copied from the cybersecurity one, so
+    // the IDs happen to match its.)
+    completionFormFields: {
+      "compliance.pre":    "entry.825778880",
+      "compliance.post":   "entry.1840946672",
+      "program.pre":       "entry.1885067235",
+      "program.post":      "entry.312807455",
+      "false-claims.pre":  "entry.1528542073",
+      "false-claims.post": "entry.1727010128",
+      "integrity.pre":     "entry.1863488691",
+      "integrity.post":    "entry.1695759295"
+    },
 
     passPercent: 80,
 
