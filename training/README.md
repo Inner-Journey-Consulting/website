@@ -186,11 +186,15 @@ documents are in `billing/js/config.js`, `billing/content/` and `billing/docs/`.
 
 It's a **faithful adaptation**: the county's five modules, content and review
 questions, made easier to get through. The county's Acknowledgment and Agreement
-form is still the county's record: the last step sends people to print and sign
-it, and give or mail it to Carl, who sends them on to the county. Then, as in the cybersecurity course, people submit Inner Journey's own
-completion form (a Google Form in the Inner Journey Workspace), which records
-their before and after scores and whether they've sent the county's form. It
-doesn't send certificates; the county's signed form serves that purpose.
+form is still the county's record. The last page has two steps:
+
+1. Submit Inner Journey's own completion form (a Google Form in the Inner
+   Journey Workspace), as in the cybersecurity course. It records each
+   person's before and after scores, and tells Carl they've finished.
+2. Watch for the county's Acknowledgment form, which Carl emails to each
+   person to sign and return to him. He sends them on to the county.
+
+There are no emailed certificates; the county's signed form serves that purpose.
 
 Changes from the county's slides:
 
@@ -213,15 +217,15 @@ To confirm with the county (contacts are set in `billing/js/config.js`):
   updated 3/12/2025, names Shauna Schulz. Both give the same phone number, so the
   course names no one and points to the Compliance Office at that number.
 - **Where the form goes.** The slides say the Compliance Officer; the form says
-  the Contract Administrator. Staff send their signed forms to Carl, who sends
-  them to the county, so he can check which address it wants.
+  the Contract Administrator. Carl collects the signed forms and sends them to
+  the county, so he can check which address it wants.
 - **Dated content.** The penalty amounts ($5,000-$10,000 per claim) and the
   2009 and 2012 cases are copied as the county states them. Federal penalty
   amounts have since been raised for inflation.
 
-`billing/docs/` holds copies of the county's Code of Conduct and Acknowledgment
-form, downloaded from the county's website. Replace them if the county updates
-either one.
+`billing/docs/` holds a copy of the county's Code of Conduct, downloaded from
+the county's website. Replace it if the county updates it. The Acknowledgment
+form isn't on the site, since Carl emails it to each person.
 
 ## Adding a course
 
