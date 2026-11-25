@@ -12,13 +12,12 @@
   // Compliance Office and its phone number, which both agree on.
   const county = {
     officerPhone: "(920) 674-7191",
-    address: ["1541 Annex Road", "Jefferson, WI 53549"],
-    // Where the signed Acknowledgment form goes, as printed on the form itself.
-    formRecipient: "Contract Administrator",
-    formRecipientEmail: ""         // the form says "email or mail" but gives no address
+    address: ["1541 Annex Road", "Jefferson, WI 53549"]
   };
 
-  const mail = county.address.join("<br>");
+  // Who sends staff the county's Acknowledgment form, by email, and collects
+  // the signed forms to send on to the county.
+  const formFrom = "Carl Vitense";
 
   window.COURSE_CONFIG = {
     title: "Billing Compliance Training",
@@ -34,35 +33,32 @@
       Compliance Training</strong>, required within 30 days of starting and every year after
       for everyone who provides or bills for mental health services under the county's
       contract.`,
-    finishStep: `When all four are done, go to <strong>Certification</strong>: sign the
-      county's Acknowledgment form and send it in, then submit Inner Journey's
-      <strong>completion form</strong>.`,
+    finishStep: `When all four are done, go to <strong>Certification</strong>: submit
+      Inner Journey's <strong>completion form</strong>, then sign the county's
+      Acknowledgment form, which ${formFrom} will email you.`,
 
     finishLabel: "Certification",
 
-    // Module 5 in the county's training: the Acknowledgment and Agreement form.
+    // Module 5 in the county's training. Staff first submit Inner Journey's
+    // completion form (below); then Carl emails them the county's Acknowledgment
+    // and Agreement form to sign and return to him.
     completionHtml: `
-      <p class="lead">Module 5: Certification. Two last steps: sign the county's
-        <strong>Acknowledgment and Agreement</strong> form, which is the county's record that
-        you completed this training, then record your completion with Inner Journey.</p>
-      <h2 class="h5 mt-4">First, sign the county's form</h2>
-      <ol class="how">
-        <li><a href="docs/acknowledgment-form.pdf" target="_blank" rel="noopener">Open the
-          Acknowledgment form (PDF)</a> and print it.</li>
-        <li>Fill it in and sign it. Use <strong>Inner Journey Consulting</strong> as the
-          agency name.</li>
-        <li>Keep a copy for your records.</li>
-        <li>Send the form with your <strong>original signature</strong> to:<br>
-          ${county.formRecipient}<br>${mail}
-          ${county.formRecipientEmail ? `<br>or by email to <a href="mailto:${county.formRecipientEmail}">${county.formRecipientEmail}</a>` : ""}</li>
-      </ol>
+      <p class="lead">Module 5: Certification. Two last steps: record your completion with
+        Inner Journey, then sign the county's <strong>Acknowledgment and Agreement</strong>
+        form.</p>`,
+    completionFormHeading: "First, record your completion with Inner Journey",
+    completionAfterHtml: `
+      <h2 class="h5 mt-4">Then sign the county's form</h2>
+      <p>${formFrom} will email the county's <strong>Acknowledgment and Agreement</strong>
+        form to your <strong>Inner Journey email address</strong>. Fill it in, sign it, and
+        return it to him as the email explains. He sends everyone's forms to the county,
+        and it's the county's record that you completed this training.</p>
       <p>Questions about the training? Contact the Jefferson County Compliance Office at
         ${county.officerPhone}.</p>`,
 
     // Inner Journey's own completion record: a Google Form in the Inner Journey
     // Workspace, restricted to the organization, with verified email collection.
-    // It also asks whether the person has sent the county's form. Blank would
-    // leave the county's form as the only record.
+    // Blank would leave the county's form as the only record.
     completionFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSeUlNy8Fg0TMZlo4RJqOr-6diuxYCQsfw9EoG2xXb93hK-11A/viewform",
 
     // Score fields on that form, filled in from this browser's results as
